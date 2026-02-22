@@ -28,7 +28,7 @@
       <div class="card--definition-list">
         <div class="card--definition">
           {% for definition in obj.definition_list %}
-            <div class="card--definition-text"><sup>{{ loop.index }}</sup> {{ definition.text|markdown }}</div>
+            <div class="card--definition-text">{% if obj.definition_list|length > 1 %}<sup>{{ loop.index }}</sup> {% endif %}{{ definition.text|markdown }}</div>
             {% for use in definition.in_use %}
               <div class="card--definition-in-use">
                 <q>{{ use.text|italicize(obj.word)|markdown }}</q>

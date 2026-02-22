@@ -1,0 +1,11 @@
+word: Benchmarks
+type: noun
+definition_list:
+  - text: Tests designed to measure an AI model's knowledge and reasoning ability, used by AI companies as proof of progress.
+    in_use:
+      - text: "While imperfect, the industry has embraced the use of '_benchmarks_' — tests designed to measure an AI model's knowledge and reasoning ability."
+        source: Sherwood News
+        url: https://sherwood.news/tech/openais-arc-de-triumph/
+      - text: 'AI companies are quick to boast about how well their new model tested on different _benchmarks_, using them as proof of progress.'
+        source: Sherwood News
+        url: https://sherwood.news/tech/openais-arc-de-triumph/

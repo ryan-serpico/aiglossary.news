@@ -62,7 +62,7 @@
     <div class="card--body">
       <div class="card--definition-list">
         <div class="card--definition">
-          <div class="card--definition-text"><sup>1</sup> { shortDefinition }</div>
+          <div class="card--definition-text">{#if definitionList.length > 1}<sup>1</sup> {/if}{ shortDefinition }</div>
         </div>
       </div>
     </div>

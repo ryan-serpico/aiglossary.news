@@ -1,8 +1,0 @@
-word: back reference transaction id
-type: noun
-definition_list:
-  - text: an identifer that links one [itemized](/itemize/) transaction to another transaction; can be used for a variety of purposes, including grouping multiple purchases with a single credit card payment; can also be used to record an [excessive contribution](/excessive-contribution/) that is split into multiple transactions
-    in_use:
-      - text: "The back reference transaction ID of the specific purchases will equal the transaction ID of the payment to the credit card company."
-        source: FEC
-        url: https://www.fec.gov/campaign-finance-data/operating-expenditures-file-description/
