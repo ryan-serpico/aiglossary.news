@@ -1,8 +1,8 @@
-site_name: moneyinpolitics.wtf
+site_name: abcsofai.news
 locale: en_US
 
-headline: MONEYINPOLITICS.wtf
-description: America’s most comprehensive dictionary of campaign finance jargon
+headline: abcsofai.news
+description: A glossary of AI terms for journalists
 
 [byline]
 name: Agustin Armendariz
@@ -25,7 +25,7 @@ url: https://thescoop.org/about/
 pub_date: 2023-01-01 00:00:00
 update_date:
 
-seo_headline: MONEYINPOLITICS.wtf
-seo_description: America’s most comprehensive dictionary of campaign finance jargon
+seo_headline: abcsofai.news
+seo_description: A glossary of AI terms for journalists
 
 social_image: assets/images/social.png

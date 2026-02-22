@@ -1,6 +1,6 @@
-# Contributing to moneyinpolitics.wtf
+# Contributing to abcsofai.news
 
-The following is a set of guidelines for contributing to this repository and the dictionary of campaign finance jargon at [moneyinpolitics.wtf](https://moneyinpolitics.wtf/).
+The following is a set of guidelines for contributing to this repository and the glossary of AI terms at [abcsofai.news](https://abcsofai.news/).
 
 #### Table Of contents
 
@@ -21,7 +21,7 @@ This site is run by [Ben Welsh](https://palewi.re/who-is-ben-welsh/). You can re
 
 ## How definitions are stored
 
-The definitions published by the site are stored in the [`dictionary`](https://github.com/palewire/moneyinpolitics.wtf/blob/main/_data/dictionary) folder in the `_data` directory.
+The definitions published by the site are stored in the [`dictionary`](https://github.com/ryan-serpico/abcsofai.news/blob/main/_data/dictionary) folder in the `_data` directory.
 
 Note that each file’s name ends with `.yaml`. That tells computers that it is expected to contain data structured in YAML format.
 
@@ -89,13 +89,13 @@ The definition should be saved in a new file with the same name as the word. The
 
 ## Adding a definition
 
-To add a definition, you should add a new YAML file to the [`dictionary`](https://github.com/palewire/moneyinpolitics.wtf/blob/main/_data/dictionary) directory. Our data format is described above.
+To add a definition, you should add a new YAML file to the [`dictionary`](https://github.com/ryan-serpico/abcsofai.news/blob/main/_data/dictionary) directory. Our data format is described above.
 
-If you're unfamiliar with GitHub's system for proposing changes, you can follow the [instructions for editing files](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files#editing-files-in-another-users-repository). Or you can [create an issue](https://github.com/palewire/moneyinpolitics.wtf/issues/new?assignees=palewire&labels=enhancement&template=add-a-word.yaml&title=Add+a+word) and submit your definition via a form.
+If you're unfamiliar with GitHub's system for proposing changes, you can follow the [instructions for editing files](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files#editing-files-in-another-users-repository). Or you can [create an issue](https://github.com/ryan-serpico/abcsofai.news/issues/new?assignees=palewire&labels=enhancement&template=add-a-word.yaml&title=Add+a+word) and submit your definition via a form.
 
 ## Reporting an error
 
-You can report mistakes and suggest changes to existing definitions by editing the [`dictionary.yaml`](https://github.com/palewire/moneyinpolitics.wtf/blob/main/_data/dictionary.yaml) file or [submitting an issue](https://github.com/palewire/moneyinpolitics.wtf/issues) to our tracker. If you're unable to to utilize those techniques, contact Ben Welsh at [b@palewi.re](mailto:b@palewi.re).
+You can report mistakes and suggest changes to existing definitions by editing the [`dictionary.yaml`](https://github.com/ryan-serpico/abcsofai.news/blob/main/_data/dictionary.yaml) file or [submitting an issue](https://github.com/ryan-serpico/abcsofai.news/issues) to our tracker. If you're unable to to utilize those techniques, contact Ben Welsh at [b@palewi.re](mailto:b@palewi.re).
 
 ## Installing the repository
 

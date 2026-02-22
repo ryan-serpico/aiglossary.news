@@ -26,7 +26,7 @@ jobs:
       - name: Build
         run: |
           npm run-script build
-          echo 'moneyinpolitics.wtf' > _dist/CNAME
+          echo 'abcsofai.news' > _dist/CNAME
           touch _dist/.nojekyll
           echo 'encoding: UTF-8' > _dist/_config.yml
 

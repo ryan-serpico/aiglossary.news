@@ -27,7 +27,7 @@ const escapeHtml = (str) =>
     .replace(/'/g, '&#039;');
 
 export default {
-  domain: 'https://moneyinpolitics.wtf/',
+  domain: 'https://abcsofai.news/',
   entrypoints: `scripts/${
     entrypoints.length > 1 ? `{${entrypoints.join(',')}}` : entrypoints[0]
   }.ts`,
