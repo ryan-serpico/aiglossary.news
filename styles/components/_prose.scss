@@ -1,10 +1,14 @@
 @use '../variables/fonts';
+@use '../variables/colors';
 
 p {
   font-family: fonts.$font-family-body;
   font-weight: fonts.$font-weight-body;
+  color: colors.$black;
+
   &.prose {
     margin: 18px 0;
-    font-size: 18px;
+    font-size: 17px;
+    line-height: 1.7;
   }
 }

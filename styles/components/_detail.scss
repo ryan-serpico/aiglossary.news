@@ -1,0 +1,142 @@
+@use '../variables/fonts';
+@use '../variables/colors';
+
+.word-detail {
+  .back-link {
+    font-family: fonts.$font-family-body;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin: 1.5rem 0;
+    display: block;
+
+    a {
+      color: colors.$dark-gray;
+      text-decoration: none;
+      &:hover {
+        color: colors.$accent;
+      }
+    }
+  }
+
+  .detail--word {
+    font-family: fonts.$font-family-headline;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 1.1;
+    color: colors.$true-black;
+    margin: 0;
+
+    @media (max-width: 600px) {
+      font-size: 28px;
+    }
+  }
+
+  .detail--type {
+    font-family: fonts.$font-family-body;
+    font-size: 18px;
+    font-style: italic;
+    color: colors.$dark-gray;
+    margin: 0.25rem 0 0 0;
+  }
+
+  .detail--divider {
+    border: none;
+    border-top: 1px solid colors.$gray;
+    margin: 1rem 0 1.5rem 0;
+  }
+
+  .detail--definition-text {
+    font-family: fonts.$font-family-body;
+    font-size: 18px;
+    line-height: 1.7;
+    color: colors.$black;
+    margin: 0 0 1rem 0;
+
+    sup {
+      font-size: 0.75em;
+      font-weight: 700;
+      color: colors.$dark-gray;
+      margin-right: 0.15em;
+    }
+
+    a {
+      color: colors.$accent;
+      text-decoration: underline;
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+
+  .detail--in-use {
+    margin: 0.75rem 0 1.5rem 0;
+    padding: 0.75rem 0 0.75rem 1.25rem;
+    border-left: 3px solid colors.$accent;
+    font-family: fonts.$font-family-body;
+    font-size: 16px;
+    line-height: 1.6;
+    color: colors.$dark-gray;
+
+    q {
+      font-style: italic;
+      quotes: '\201C' '\201D';
+    }
+
+    .detail--in-use-source {
+      display: block;
+      margin-top: 0.25rem;
+      font-size: 14px;
+      font-style: normal;
+      color: colors.$dark-gray;
+
+      a {
+        color: colors.$accent;
+      }
+    }
+  }
+
+  .detail--actions {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid colors.$gray;
+    font-family: fonts.$font-family-body;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+
+    a {
+      color: colors.$dark-gray;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+
+      &:hover {
+        color: colors.$accent;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .detail--about {
+    margin-top: 2.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid colors.$gray;
+    font-family: fonts.$font-family-body;
+    font-size: 14px;
+    color: colors.$dark-gray;
+    line-height: 1.5;
+
+    a {
+      color: colors.$accent;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

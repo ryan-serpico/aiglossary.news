@@ -11,53 +11,38 @@
 {% endblock scripts %}
 
 {% block content %}
-<article>
-  <header>
-    <div class="masthead">
-      <h1><a href="/">abcsofai.news</a></h1>
-      <div class="description">
-        A glossary of AI terms for journalists
-      </div>
-    </div>
-  </header>
-  <section id="card-container" class="card-container"></section>
-  <div class="card card--detail card--big card--explainer">
-    <div class="card--headline">
-      <div class="word">About this site</div>
-    </div>
-    <div class="card--body">
-      <div class="card--definition-list">
-        <div class="card--definition">
-          <a href="/">abcsofai.news</a> is a free resource created by and for data journalists. Anyone is able to <a href="https://github.com/ryan-serpico/abcsofai.news/issues/new?assignees=palewire&labels=enhancement&template=request-a-word.yaml&title=Request+a+word">request a definition</a>, <a href="https://github.com/ryan-serpico/abcsofai.news/issues/new?assignees=palewire&labels=bug&template=flag-an-error.yaml&title=Flag+an+error">flag an error</a> or  <a href="https://github.com/ryan-serpico/abcsofai.news/issues/new?assignees=palewire&labels=enhancement&template=add-a-word.yaml&title=Add+a+word">draft an entry</a>. All of the code that powers the site is available as <a href="https://github.com/ryan-serpico/abcsofai.news/">open source</a>. Learn more about how you can contribute by reading our <a href="https://github.com/ryan-serpico/abcsofai.news/blob/main/CONTRIBUTING.md">guide</a> to the site’s design.
-        </div>
-      </div>
-    </div>
+<article class="word-detail">
+  {% include 'header.html' %}
+
+  <div class="back-link">
+    <a href="/">&larr; All terms</a>
   </div>
-  <section class="card--detail maintainers">
+
+  <h2 class="detail--word">About this site</h2>
+  <hr class="detail--divider" />
+
+  <div class="detail--definition-text">
+    <a href="/">abcsofai.news</a> is a free resource created by and for data journalists.
+    Anyone is able to <a href="https://github.com/ryan-serpico/abcsofai.news/issues/new?assignees=palewire&labels=enhancement&template=request-a-word.yaml&title=Request+a+word">request a definition</a>,
+    <a href="https://github.com/ryan-serpico/abcsofai.news/issues/new?assignees=palewire&labels=bug&template=flag-an-error.yaml&title=Flag+an+error">flag an error</a> or
+    <a href="https://github.com/ryan-serpico/abcsofai.news/issues/new?assignees=palewire&labels=enhancement&template=add-a-word.yaml&title=Add+a+word">draft an entry</a>.
+    All of the code that powers the site is available as <a href="https://github.com/ryan-serpico/abcsofai.news/">open source</a>.
+    Learn more about how you can contribute by reading our <a href="https://github.com/ryan-serpico/abcsofai.news/blob/main/CONTRIBUTING.md">guide</a>.
+  </div>
+
+  <section id="card-container" class="card-container"></section>
+
+  <section class="maintainers">
     <h3>Maintainers</h3>
-    <div class="card-list">
+    <ul class="maintainer-list">
     {% for obj in meta.byline %}
-    <div class="card">
-        <div class="card--headline">{{ obj.name }}</div>
-        <div class="card--body">
-        <div class="card--definition-list">
-            <div class="card--definition">
-                <div class="card--definition-text">
-                    {{ obj.title }}
-                </div>
-            </div>
-        </div>
-        </div>
-        <div class="card--actions">
-        <div class="card--actions-border">
-            <div class="card--action-item card--expand">
-                <a href="{{ obj.url }}">Bio</a>
-            </div>
-        </div>
-        </div>
-    </div>
+      <li class="maintainer">
+        <div class="maintainer--name">{{ obj.name }}</div>
+        <div class="maintainer--title">{{ obj.title }}</div>
+        <div class="maintainer--link"><a href="{{ obj.url }}">Bio</a></div>
+      </li>
     {% endfor %}
-    </div>
+    </ul>
   </section>
 </article>
 {% endblock content %}

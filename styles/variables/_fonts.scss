@@ -1,36 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400;1,8..60,600&family=IBM+Plex+Mono:wght@400&display=swap');
 
-@font-face {
-  font-family: 'Wremena';
-  src: static-url('./assets/fonts/WremenaRegular/WremenaRegular.woff')
-    format('woff');
-  font-weight: 400;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Wremena';
-  src: static-url('./assets/fonts/WremenaLight/WremenaLight.woff')
-    format('woff');
-  font-weight: 300;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Wremena';
-  src: static-url('./assets/fonts/WremenaBold/WremenaBold.woff') format('woff');
-  font-weight: 700;
-  font-display: swap;
-}
-
-$font-family-serif: 'Wremena', serif;
-$font-family-sans: 'IBM Plex Sans', sans-serif;
+$font-family-serif: 'Playfair Display', Georgia, serif;
+$font-family-body:
+  'Source Serif 4', Charter, 'Bitstream Charter', Georgia, serif;
 $font-family-mono: 'IBM Plex Mono', monospace;
 
 $font-family-headline: $font-family-serif;
-$font-family-body: $font-family-sans;
 $font-family-table: $font-family-mono;
 
-$font-weight-headline: 700;
+$font-weight-headline: 900;
 $font-weight-body: 400;

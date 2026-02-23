@@ -45,7 +45,8 @@
   {% endblock scripts %}
 </head>
 <body>
-  <main class="gradient-border container">
+  {% include 'nav.html' %}
+  <main class="container">
     {% block content %}
     {% endblock content %}
   </main>

@@ -1,0 +1,206 @@
+@use '../variables/fonts';
+@use '../variables/colors';
+
+// Search input — editorial style
+.search {
+  margin: 1.5rem 0 1rem 0;
+
+  input {
+    width: 100%;
+    font-family: fonts.$font-family-body;
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 0.6rem 0;
+    border: none;
+    border-bottom: 2px solid colors.$true-black;
+    background: transparent;
+    color: colors.$black;
+    outline: none;
+    transition: border-color 0.2s ease;
+
+    &::placeholder {
+      color: colors.$dark-gray;
+      font-style: italic;
+    }
+
+    &:focus {
+      border-bottom-color: colors.$accent;
+    }
+  }
+}
+
+// Letter group divider
+.letter-group {
+  margin: 2rem 0 0.75rem 0;
+  text-align: center;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: colors.$gray;
+  }
+
+  .letter-group--label {
+    position: relative;
+    display: inline-block;
+    background: colors.$white;
+    padding: 0 1rem;
+    font-family: fonts.$font-family-headline;
+    font-weight: 700;
+    font-size: 18px;
+    color: colors.$dark-gray;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+  }
+}
+
+// Dictionary list
+.dictionary-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+// Individual dictionary entry
+.dictionary-entry {
+  padding: 1rem 0;
+  border-bottom: 1px solid colors.$gray;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  .entry--headline {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .entry--word {
+    font-family: fonts.$font-family-headline;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: colors.$true-black;
+
+    a {
+      color: colors.$true-black;
+      text-decoration: none;
+      &:hover {
+        color: colors.$accent;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .entry--type {
+    font-family: fonts.$font-family-body;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 400;
+    color: colors.$dark-gray;
+  }
+
+  .entry--definition {
+    font-family: fonts.$font-family-body;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.65;
+    color: colors.$black;
+    margin: 0.25rem 0 0 0;
+
+    sup {
+      font-size: 0.75em;
+      font-weight: 700;
+      color: colors.$dark-gray;
+      margin-right: 0.15em;
+    }
+  }
+
+  .entry--actions {
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.5rem;
+    font-family: fonts.$font-family-body;
+    font-size: 13px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    a {
+      color: colors.$dark-gray;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+
+      &:hover {
+        color: colors.$accent;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+// About inline section
+.about-inline {
+  margin: 2rem 0;
+  padding: 1.25rem 0;
+  border-top: 2px solid colors.$true-black;
+  border-bottom: 1px solid colors.$gray;
+
+  .about-inline--headline {
+    font-family: fonts.$font-family-headline;
+    font-size: 18px;
+    font-weight: 700;
+    color: colors.$true-black;
+    margin-bottom: 0.25rem;
+
+    a {
+      color: colors.$true-black;
+      text-decoration: none;
+      &:hover {
+        color: colors.$accent;
+      }
+    }
+  }
+
+  .about-inline--body {
+    font-family: fonts.$font-family-body;
+    font-size: 15px;
+    color: colors.$dark-gray;
+    line-height: 1.5;
+  }
+}
+
+// No results
+.no-results {
+  margin: 2rem 0;
+  text-align: center;
+  padding: 2rem 0;
+
+  .no-results--headline {
+    font-family: fonts.$font-family-headline;
+    font-size: 20px;
+    font-weight: 700;
+    color: colors.$dark-gray;
+  }
+
+  .no-results--body {
+    font-family: fonts.$font-family-body;
+    font-size: 15px;
+    color: colors.$dark-gray;
+    margin-top: 0.5rem;
+
+    a {
+      color: colors.$accent;
+      text-decoration: underline;
+    }
+  }
+}

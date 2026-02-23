@@ -1,4 +1,5 @@
 @use '../variables/colors';
+@use '../variables/fonts';
 
 html,
 body {
@@ -6,25 +7,23 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
-}
-
-$border-width: 12px;
-.gradient-border {
-  border: colors.$green $border-width solid;
-  @media (max-width: 480px) {
-    border-width: $border-width * 0.66;
-  }
+  background-color: colors.$off-white;
 }
 
 .container {
   width: 100%;
+  max-width: 780px;
   min-height: 100%;
   height: auto;
-  display: block;
-  padding: 1.15rem;
-  background: white;
-  line-height: 1.4;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  background: colors.$white;
+  line-height: 1.6;
+  font-family: fonts.$font-family-body;
+  color: colors.$black;
+
   @media (max-width: 480px) {
-    padding: 0.33rem 0.75rem 0.33rem 0.75rem;
+    padding: 1rem 1rem;
+    max-width: 100%;
   }
 }

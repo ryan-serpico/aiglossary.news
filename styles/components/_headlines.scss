@@ -10,8 +10,13 @@ h6 {
   font-family: fonts.$font-family-headline;
   font-weight: fonts.$font-weight-headline;
   margin: 0;
+  color: colors.$true-black;
 }
 
 h1 {
   font-size: 38px;
+}
+
+h2 {
+  font-size: 28px;
 }
