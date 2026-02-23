@@ -42,10 +42,9 @@
     }
 
     .maintainer--link {
-      font-family: fonts.$font-family-body;
+      font-family: fonts.$font-family-headline;
       font-size: 13px;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
+      font-weight: 500;
       margin-top: 0.25rem;
 
       a {

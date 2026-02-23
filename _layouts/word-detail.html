@@ -10,8 +10,6 @@
 
 {% block content %}
 <article class="word-detail">
-  {% include 'header.html' %}
-
   <div class="back-link">
     <a href="/">&larr; All terms</a>
   </div>
@@ -57,5 +55,26 @@
   <div class="detail--about">
     <a href="/about/">About this glossary</a> &mdash; who's behind this site and how you can contribute.
   </div>
+
+  {% if prevTerm or nextTerm %}
+  <nav class="detail--prev-next">
+    {% if prevTerm %}
+      <a href="/{{ prevTerm.word|slugify }}/" class="detail--prev">
+        <span class="detail--prev-next-label">&larr; Previous</span>
+        <span class="detail--prev-next-word">{{ prevTerm.word }}</span>
+      </a>
+    {% else %}
+      <div></div>
+    {% endif %}
+    {% if nextTerm %}
+      <a href="/{{ nextTerm.word|slugify }}/" class="detail--next">
+        <span class="detail--prev-next-label">Next &rarr;</span>
+        <span class="detail--prev-next-word">{{ nextTerm.word }}</span>
+      </a>
+    {% else %}
+      <div></div>
+    {% endif %}
+  </nav>
+  {% endif %}
 </article>
 {% endblock content %}

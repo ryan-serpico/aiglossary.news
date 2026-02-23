@@ -1,5 +1,6 @@
 @use '../variables/colors';
 @use '../variables/fonts';
+@use '../variables/spacing';
 
 html,
 body {
@@ -16,14 +17,14 @@ body {
   min-height: 100%;
   height: auto;
   margin: 0 auto;
-  padding: 2rem 1.5rem;
+  padding: spacing.$space-4 1.5rem;
   background: colors.$white;
   line-height: 1.6;
   font-family: fonts.$font-family-body;
   color: colors.$black;
 
   @media (max-width: 480px) {
-    padding: 1rem 1rem;
+    padding: spacing.$space-3 1rem;
     max-width: 100%;
   }
 }

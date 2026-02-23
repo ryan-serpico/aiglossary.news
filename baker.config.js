@@ -58,11 +58,18 @@ export default {
   },
   createPages(createPage, data) {
     const wordList = Object.values(data.dictionary);
+    // Sort alphabetically for prev/next navigation
+    wordList.sort((a, b) =>
+      a.word.toLowerCase().localeCompare(b.word.toLowerCase())
+    );
     createPage('dictionary.json.njk', '/api/dictionary.json', {
       object_list: JSON.stringify(wordList, null, 2),
     });
     let urlList = ['/', '/about/'];
-    for (const obj of wordList) {
+    for (let i = 0; i < wordList.length; i++) {
+      const obj = wordList[i];
+      const prevTerm = i > 0 ? wordList[i - 1] : null;
+      const nextTerm = i < wordList.length - 1 ? wordList[i + 1] : null;
       const template = 'word-detail.html';
       const url = `/${slugifyFunc(obj.word)}/`;
       const meta = {
@@ -79,7 +86,7 @@ export default {
           stripMarkdownFunc(obj.definition_list[0].text)
         ),
       };
-      createPage(template, url, { obj, meta });
+      createPage(template, url, { obj, meta, prevTerm, nextTerm });
       urlList.push(url);
     }
     // Make sitemap

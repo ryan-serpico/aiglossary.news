@@ -1,5 +1,6 @@
 <script>
   import { writable, derived } from 'svelte/store';
+  import { onMount, onDestroy } from 'svelte';
   import LetterGroup from './LetterGroup.svelte';
   import DictionaryEntry from './DictionaryEntry.svelte';
   import AboutInline from './AboutInline.svelte';
@@ -26,10 +27,14 @@
 
   const filtered = derived(
     [term, items],
-    ([$term, $items]) =>
-      $items.filter((x) =>
-        x.word.toLowerCase().includes($term.toLowerCase())
-      )
+    ([$term, $items]) => {
+      if (!$term) return $items;
+      const q = $term.toLowerCase();
+      return $items.filter((x) =>
+        x.word.toLowerCase().includes(q) ||
+        x.definition_list.some((d) => d.text.toLowerCase().includes(q))
+      );
+    }
   );
 
   // Group filtered items by first letter
@@ -50,6 +55,8 @@
   const detailElements = Array.from(document.getElementsByClassName('card--detail'));
 
   let val = '';
+  let inputEl;
+
   $: term.set(val);
   $: hide =
     ($filtered.length == 0 || $filtered.length == $items.length) &&
@@ -61,10 +68,32 @@
       detailElements.forEach((e) => e.classList.remove('display-none'));
     }
   }
+
+  function handleKeydown(e) {
+    if (e.key === '/' && document.activeElement.tagName !== 'INPUT' && document.activeElement.tagName !== 'TEXTAREA') {
+      e.preventDefault();
+      inputEl?.focus();
+    }
+  }
+
+  onMount(() => {
+    document.addEventListener('keydown', handleKeydown);
+  });
+
+  onDestroy(() => {
+    document.removeEventListener('keydown', handleKeydown);
+  });
 </script>
 
 <div class="search">
-  <input bind:value={val} type="text" placeholder="Search for a term..." />
+  <div class="search--wrapper">
+    <svg class="search--icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="11" cy="11" r="8" />
+      <line x1="21" y1="21" x2="16.65" y2="16.65" />
+    </svg>
+    <input bind:this={inputEl} bind:value={val} type="text" placeholder="Search for a term..." />
+    <kbd class="search--shortcut">/</kbd>
+  </div>
 </div>
 
 <div class="dictionary-list {hide ? 'display-none' : ''}">
