@@ -85,6 +85,15 @@
   });
 </script>
 
+<div class="intro">
+  <p>
+    A free, open-source glossary of AI terms and concepts for journalists. Built as supplementary material for the <strong>"AI concepts you should know"</strong> session at <a href="https://www.ire.org/training/conferences/nicar-2026/">NICAR 2026</a> in Indianapolis.
+  </p>
+  <p>
+    This project is a fork of <a href="https://moneyinpolitics.wtf/">moneyinpolitics.wtf</a> by <a href="https://www.icij.org/journalists/agustin-armendariz/">Agustin Armendariz</a>, <a href="https://www.washingtonpost.com/people/anu-narayanswamy/">Anu Narayanswamy</a>, <a href="https://palewi.re/who-is-ben-welsh/">Ben Welsh</a> and <a href="https://thescoop.org/">Derek Willis</a>. Their dictionary of campaign finance jargon provided both the inspiration and the foundation for this site. In the spirit of their <a href="https://www.niemanlab.org/2026/02/journalism-lost-its-culture-of-sharing-heres-how-we-rebuild-it/">recent call</a> to revive open-source culture in journalism, we're keeping the tradition alive.
+  </p>
+</div>
+
 <div class="search">
   <div class="search--wrapper">
     <svg class="search--icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">

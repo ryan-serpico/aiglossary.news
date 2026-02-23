@@ -2,6 +2,39 @@
 @use '../variables/colors';
 @use '../variables/spacing';
 
+// Intro paragraph
+.intro {
+  margin: spacing.$space-3 0 0 0;
+  padding: spacing.$space-3;
+  background: colors.$off-white;
+  border-radius: 8px;
+
+  p {
+    font-family: fonts.$font-family-body;
+    font-size: 15px;
+    line-height: 1.7;
+    color: colors.$dark-gray;
+    margin: 0 0 spacing.$space-2 0;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    strong {
+      font-weight: 600;
+    }
+
+    a {
+      color: colors.$accent;
+      text-decoration: underline;
+
+      &:hover {
+        color: colors.$accent-hover;
+      }
+    }
+  }
+}
+
 // Search input
 .search {
   position: sticky;
