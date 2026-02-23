@@ -16,7 +16,7 @@
     color: colors.$dark-gray;
     margin: 0 0 spacing.$space-2 0;
 
-    &:last-child {
+    &:last-of-type {
       margin-bottom: 0;
     }
 
@@ -31,6 +31,48 @@
       &:hover {
         color: colors.$accent-hover;
       }
+    }
+  }
+
+  .intro--actions {
+    display: flex;
+    gap: spacing.$space-2;
+    margin-top: spacing.$space-3;
+  }
+
+  .intro--btn {
+    display: inline-block;
+    font-family: fonts.$font-family-headline;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition:
+      background-color 0.15s ease,
+      color 0.15s ease;
+  }
+
+  .intro--btn-primary {
+    background: colors.$accent;
+    color: colors.$white;
+
+    &:hover {
+      background: colors.$accent-hover;
+      color: colors.$white;
+      text-decoration: none;
+    }
+  }
+
+  .intro--btn-secondary {
+    background: colors.$white;
+    color: colors.$accent;
+    border: 1.5px solid colors.$accent;
+
+    &:hover {
+      background: colors.$accent-light;
+      color: colors.$accent-hover;
+      text-decoration: none;
     }
   }
 }
