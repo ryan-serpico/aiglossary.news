@@ -1,0 +1,11 @@
+word: Alignment
+type: noun
+definition_list:
+  - text: The process of ensuring an AI system behaves in accordance with human values and intentions, rather than pursuing unintended or harmful goals.
+    in_use:
+      - text: "Still, the document is not a silver bullet for solving the so-called _alignment_ problem, which is the tricky task of ensuring AIs conform to human values, even if they become more intelligent than us."
+        source: TIME
+        url: https://time.com/7354738/claude-constitution-ai-alignment/
+      - text: "'This implies that our existing training processes don't prevent models from pretending to be _aligned_,' Hubinger tells TIME. 'It means that _alignment_ is more difficult than you would have otherwise thought, because you have to somehow get around this problem.'"
+        source: TIME
+        url: https://time.com/7202784/ai-research-strategic-lying/
