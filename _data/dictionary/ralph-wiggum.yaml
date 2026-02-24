@@ -1,0 +1,11 @@
+word: Ralph Wiggum
+type: noun
+definition_list:
+  - text: A technique for AI-assisted coding where an AI agent is run in a loop, feeding its own output and errors back into itself until it produces a working result. Named after the haplessly persistent Simpsons character, the approach treats brute-force repetition as a substitute for getting it right the first time.
+    in_use:
+      - text: "He calls the code and the technique it enables 'Ralph,' a homage to 1980s slang for vomiting, and to Simpsons character _Ralph Wiggum_ and his combination of ignorance, persistence, and optimism."
+        source: The Register
+        url: https://www.theregister.com/2026/01/27/ralph_wiggum_claude_loops/
+      - text: "Named after the infamously high-pitched, hapless yet persistent character on The Simpsons, this newish tool — and the philosophy behind it — has set the developer community on X into a tizzy of excitement."
+        source: VentureBeat
+        url: https://venturebeat.com/technology/how-ralph-wiggum-went-from-the-simpsons-to-the-biggest-name-in-ai-right-now

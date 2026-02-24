@@ -1,0 +1,14 @@
+word: Hallucination
+type: noun
+definition_list:
+  - text: When an AI system confidently generates information that is factually incorrect or entirely made up. Chatbots and other AI tools can _hallucinate_ anything from fake legal citations to false biographical details about real people.
+    in_use:
+      - text: "The new models still _hallucinate_, or make things up — in fact, they _hallucinate_ more than several of OpenAI's older models."
+        source: TechCrunch
+        url: https://techcrunch.com/2025/04/18/openais-new-reasoning-ai-models-hallucinate-more/
+      - text: "Some of the most sophisticated new reasoning models are _hallucinating_ more frequently, for reasons that aren't clear to researchers."
+        source: TIME
+        url: https://time.com/7302830/why-ai-is-getting-less-reliable/
+      - text: "Claude _hallucinated_ the citation with 'an inaccurate title and inaccurate authors,' Anthropic says in the filing."
+        source: TechCrunch
+        url: https://techcrunch.com/2025/05/15/anthropics-lawyer-was-forced-to-apologize-after-claude-hallucinated-a-legal-citation/
