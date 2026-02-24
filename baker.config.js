@@ -44,6 +44,9 @@ export default {
       return JSON.stringify(value, null, 2);
     },
     markdown(value) {
+      return md.render(value);
+    },
+    markdownInline(value) {
       return md.renderInline(value);
     },
     italicize(value, term) {

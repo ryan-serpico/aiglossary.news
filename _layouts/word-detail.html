@@ -25,7 +25,7 @@
       </div>
       {% for use in definition.in_use %}
         <div class="detail--in-use">
-          <q>{{ use.text|italicize(obj.word)|markdown }}</q>
+          <q>{{ use.text|italicize(obj.word)|markdownInline }}</q>
           <span class="detail--in-use-source">
             {% if use.url and use.source %}
               &mdash; <a href="{{ use.url }}">{{ use.source }}</a>

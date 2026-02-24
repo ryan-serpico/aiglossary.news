@@ -1,0 +1,21 @@
+word: Model Context Protocol
+type: noun
+definition_list:
+  - text: >-
+      An open-source standard created by Anthropic that gives AI models a universal way to connect to outside data sources and tools. Since its 2024 launch, it has been adopted by rivals including OpenAI and Google, and in 2025 was donated to the Linux Foundation.
+
+
+      Developers build MCP "servers" — plug-ins that let an AI assistant tap into a specific capability. For example, the [Context7](https://context7.com/) MCP server feeds an AI agent up-to-date documentation for software libraries, so it writes code using current syntax instead of outdated patterns.
+
+
+      The [Playwright](https://github.com/microsoft/playwright-mcp) MCP server lets an AI agent open a web browser, navigate pages, and read their content. A data reporter could use it to have an AI assistant inspect a government website and then write a custom scraper to pull public records — turning what used to be hours of coding into a conversation.
+    in_use:
+      - text: "_MCP_ attempts to standardize how AI agents interact with the world via various programs, and it's already very popular. One web aggregator for _MCP_ servers (essentially, the portals for different programs or tools that agents can access) lists over 15,000 servers already."
+        source: MIT Technology Review
+        url: https://www.technologyreview.com/2025/08/04/1120996/protocols-help-agents-navigate-lives-mcp-a2a/
+      - text: "In a post on X on Wednesday, OpenAI CEO Sam Altman said that OpenAI will add support for Anthropic's _Model Context Protocol_, or MCP, across its products, including the desktop app for ChatGPT."
+        source: TechCrunch
+        url: https://techcrunch.com/2025/03/26/openai-adopts-rival-anthropics-standard-for-connecting-ai-models-to-data/
+      - text: "Called the _Model Context Protocol_, or MCP for short, Anthropic says the standard, which it open sourced today, could help AI models produce better, more relevant responses to queries."
+        source: TechCrunch
+        url: https://techcrunch.com/2024/11/25/anthropic-proposes-a-way-to-connect-data-to-ai-chatbots/
