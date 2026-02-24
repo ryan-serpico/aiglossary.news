@@ -3,7 +3,6 @@
   import { onMount, onDestroy } from 'svelte';
   import LetterGroup from './LetterGroup.svelte';
   import DictionaryEntry from './DictionaryEntry.svelte';
-  import AboutInline from './AboutInline.svelte';
   import RequestCard from './RequestCard.svelte';
 
   /**
@@ -119,9 +118,6 @@
         definitionList={obj.definition_list}
       />
     {/each}
-    {#if groupIdx === 0 && !$term && $grouped.length > 1}
-      <AboutInline />
-    {/if}
   {/each}
   {#if $term && $filtered.length == 0}
     <RequestCard word={$term} />

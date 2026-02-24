@@ -1,0 +1,11 @@
+word: The lethal trifecta
+type: noun
+definition_list:
+  - text: A dangerous combination of three AI agent capabilities that, when combined, allow an attacker to steal private data — access to private data, exposure to untrusted content, and the ability to externally communicate.
+    in_use:
+      - text: "If your agent combines these three features, an attacker can easily trick it into accessing your private data and sending it to that attacker. The _lethal trifecta_ of capabilities is: access to your private data, exposure to untrusted content, and the ability to externally communicate in a way that could be used to steal your data."
+        source: Simon Willison
+        url: https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/
+      - text: "The only way to stay safe there is to avoid that _lethal trifecta_ combination entirely."
+        source: Simon Willison
+        url: https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/
