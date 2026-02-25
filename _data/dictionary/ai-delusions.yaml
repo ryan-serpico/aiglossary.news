@@ -1,0 +1,21 @@
+word: AI Delusions
+type: noun
+definition_list:
+  - text: >-
+      A psychological phenomenon where extended conversations with AI chatbots trigger or reinforce delusional thinking in users — false beliefs that persist despite contradicting evidence. Chatbots' tendency toward validation and agreement can amplify a user's unusual ideas into full psychotic episodes, a pattern sometimes called "AI psychosis."
+
+
+      Unlike [hallucinations](/hallucination/), which refer to an AI system generating false information, AI delusions describe a psychological effect on the human user. Experts say chatbots are especially powerful triggers because of their personal, interactive nature and authoritative tone.
+
+
+      For data reporters, AI delusions represent a growing investigative beat at the intersection of technology and public health. Reporters have used FTC complaint data, psychiatric case records, and court filings to document the scale of the problem. OpenAI has estimated that 0.07 percent of ChatGPT's 800 million users showed signs of psychosis or mania — translating to roughly 560,000 people. Tracking these harms through public records, lawsuits, and safety reports is an increasingly important area of accountability journalism.
+    in_use:
+      - text: 'Dr. Sheffield was disturbed that this new technology seemed to tip people from simply having eccentric thoughts into full-on _delusions_.'
+        source: The New York Times
+        url: https://www.nytimes.com/2026/01/26/us/chatgpt-delusions-psychosis.html
+      - text: "The terms aren't formal ones, but they have emerged as shorthand for a concerning pattern: people developing _delusions_ or distorted beliefs that appear to be triggered or reinforced by conversations with AI systems."
+        source: TIME
+        url: https://time.com/7307589/ai-psychosis-chatgpt-mental-health/
+      - text: 'Consistently, the chatbots seemed to interact with the users in ways that aligned with, or intensified, prior unusual ideas or false beliefs — leading the users further out on these tangents, not rarely resulting in what, based on the descriptions, seemed to be outright _delusions_.'
+        source: NBC News
+        url: https://www.nbcnews.com/tech/tech-news/ai-chatbots-concerns-kendra-tiktok-saga-rcna224185

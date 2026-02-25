@@ -1,0 +1,18 @@
+word: Embeddings
+type: noun
+definition_list:
+  - text: >-
+      Numerical representations of text that capture its meaning. An embedding model converts words, sentences, or entire documents into lists of numbers — called vectors — arranged so that similar meanings end up with similar values. The word "president" and the word "governor," for example, would sit close together in this number space, while "president" and "sandwich" would be far apart.
+
+
+      For data reporters, embeddings unlock a powerful trick: searching by meaning instead of keywords. Say you have thousands of public comments submitted to a federal agency and you want to find every one that discusses water contamination — even if they use phrases like "polluted wells," "unsafe drinking supply," or "toxic runoff." A traditional keyword search would miss many of them, but embeddings let you find documents that are semantically similar to a query, regardless of the exact wording. The same idea powers document classification, clustering similar records, and detecting duplicate filings across large datasets.
+
+
+      Embeddings are a building block behind many AI features journalists encounter. They drive the retrieval step in retrieval-augmented generation (RAG) systems, which help chatbots look up facts before answering so they [hallucinate](/hallucination/) less. They're also how search engines and recommendation algorithms understand that two differently worded queries mean the same thing. Under the hood, models break text into [tokens](/token/) before computing embeddings, so the two concepts are closely related.
+    in_use:
+      - text: 'Exa crawls the web and encodes the contents of web pages into a format known as _embeddings_, which can be processed by large language models. _Embeddings_ turn words into numbers in such a way that words with similar meanings become numbers with similar values. In effect, this lets Exa capture the meaning of text on web pages, not just the keywords.'
+        source: MIT Technology Review
+        url: https://www.technologyreview.com/2024/12/03/1107726/the-startup-trying-to-turn-the-web-into-a-database/
+      - text: '_Embedding_ models translate text inputs like words and phrases into numerical representations, known as _embeddings_, that capture the semantic meaning of the text. _Embeddings_ are used in a range of applications, such as document retrieval and classification.'
+        source: TechCrunch
+        url: https://techcrunch.com/2025/03/07/google-debuts-a-new-gemini-based-text-embedding-model/
