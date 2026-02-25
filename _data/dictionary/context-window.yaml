@@ -1,0 +1,21 @@
+word: Context Window
+type: noun
+definition_list:
+  - text: >-
+      The maximum amount of text an AI model can read and reference at once when generating a response. Think of it as the model's working memory — anything that fits inside the context window can inform the answer, but anything outside it is effectively invisible. Context windows are measured in [tokens](/token/), which roughly correspond to words or word fragments.
+
+
+      Context windows matter for data reporters because they determine how much material you can hand an AI in a single prompt. If you want a chatbot to summarize a 200-page city budget, extract names from a stack of court filings, or compare multiple drafts of a bill, you need a context window large enough to hold all that text. When your documents exceed the limit, the model may silently drop earlier content — a recipe for incomplete analysis.
+
+
+      Context windows have grown dramatically: early models like GPT-3.5 could handle about 4,000 tokens (roughly 3,000 words), while models released in 2025 routinely accept one million tokens or more — enough to hold a 750,000-word corpus. But bigger isn't always better. Stuffing a context window with irrelevant material can add noise and reduce answer quality, which is why techniques like retrieval-augmented generation (RAG) remain popular for searching large document collections.
+    in_use:
+      - text: "Strike up a conversation with a chatbot and you may run into a frustrating limitation: It can forget what you're discussing. This happens as earlier parts of the conversation fall out of the large language model's _context window_, which is the largest chunk of text it can consider when generating a response."
+        source: IEEE Spectrum
+        url: https://spectrum.ieee.org/ai-context-window
+      - text: "LLM _context windows_ are growing, and fast. The initial version of OpenAI's GPT-3.5 had a _context window_ of just 4,096 tokens. Today, GPT-4o has a _context window_ of 128,000 tokens. That's a thirty-fold improvement in less than two years."
+        source: IEEE Spectrum
+        url: https://spectrum.ieee.org/ai-context-window
+      - text: "...particularly in terms of its ability to write code based on written instructions and the size of its '_context window_,' which means users can now input entire books and ask Claude 2 questions based on their content."
+        source: TIME
+        url: https://time.com/6295523/claude-2-anthropic-chatgpt/

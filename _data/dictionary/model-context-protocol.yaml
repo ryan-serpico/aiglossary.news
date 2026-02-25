@@ -9,6 +9,9 @@ definition_list:
 
 
       The [Playwright](https://github.com/microsoft/playwright-mcp) MCP server lets an AI agent open a web browser, navigate pages, and read their content. A data reporter could use it to have an AI assistant inspect a government website and then write a custom scraper to pull public records — turning what used to be hours of coding into a conversation.
+
+
+      Where MCP connects an agent to outside data and tools (the *what*), [agent skills](/agent-skills/) teach it workflows and best practices (the *how*). The two often work together: an MCP server might connect an agent to live market data, while a skill instructs it on how to analyze that data and format a report.
     in_use:
       - text: "_MCP_ attempts to standardize how AI agents interact with the world via various programs, and it's already very popular. One web aggregator for _MCP_ servers (essentially, the portals for different programs or tools that agents can access) lists over 15,000 servers already."
         source: MIT Technology Review

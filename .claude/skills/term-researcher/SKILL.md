@@ -29,7 +29,10 @@ For the AI term provided: **$ARGUMENTS**
 
 3. **Generate the YAML entry**
 
-   - Write a clear, plain-language definition accessible to journalists (1-2 sentences)
+   - Write a clear, plain-language definition accessible to journalists (1-2 sentences for the opening paragraph)
+   - **Contextualize for data reporters.** This glossary is built for the NICAR conference — an audience of data journalists and newsroom developers. After the core definition, add 1-2 paragraphs that help a data reporter understand why this term matters to them. Use concrete examples: How could a reporter at a local newspaper use this? How does it connect to tasks like scraping websites, analyzing documents, building datasets, or fact-checking? Ground abstract concepts in newsroom scenarios.
+   - **Use multiple paragraphs.** Break definitions into digestible chunks using the YAML `>-` block scalar with double blank lines between paragraphs (see [yaml-template.md](yaml-template.md) for the format). Avoid walls of text.
+   - **Cross-reference related terms.** If the term relates to other entries in `_data/dictionary/`, link to them using relative URLs (e.g., `[Model Context Protocol](/model-context-protocol/)`). Help readers build a mental map of how concepts connect.
    - Include 2-3 quotes from the articles found
    - Italicize the term in each quote using `_term_` syntax
    - Use the exact YAML format from [yaml-template.md](yaml-template.md)
