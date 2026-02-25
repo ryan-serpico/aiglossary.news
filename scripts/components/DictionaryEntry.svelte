@@ -1,4 +1,8 @@
 <script>
+  import MarkdownIt from 'markdown-it';
+
+  const md = new MarkdownIt();
+
   const slugify = (str) => str
     .toLowerCase()
     .trim()
@@ -13,32 +17,15 @@
   /** @type {Array<any>} */
   export let definitionList;
 
-  const truncate = (inputString, maximumLength = 160) => {
-    let outputString = "";
-    let outputLength = 0;
-    const tokenList = inputString.trim().split(' ');
-    tokenList.forEach((token) => {
-      outputLength += token.length;
-      if (outputLength < maximumLength) {
-        outputString += ` ${token}`;
-      }
-    });
-    return outputString.trim() + " ...";
-  };
-
-  const stripMarkdown = (s) => {
-    return s.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '$1');
-  };
-
-  const getShortDefinition = (arr) => {
+  const getPrimaryDefinitionHtml = (arr) => {
     if (arr.length > 0) {
-      return truncate(stripMarkdown(arr[0].text));
+      return md.renderInline(arr[0].text);
     } else {
       return '';
     }
   };
 
-  $: shortDefinition = getShortDefinition(definitionList);
+  $: primaryDefinitionHtml = getPrimaryDefinitionHtml(definitionList);
 </script>
 
 <a href="/{slugify(word)}/" class="dictionary-entry">
@@ -48,6 +35,6 @@
   </div>
   <div class="entry--definition">
     {#if definitionList.length > 1}<sup>1</sup>{/if}
-    {shortDefinition}
+    {@html primaryDefinitionHtml}
   </div>
 </a>
