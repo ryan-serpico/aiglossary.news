@@ -26,11 +26,20 @@ jobs:
       - name: Build
         env:
           SITE_URL: ${{ vars.SITE_URL }}
+          BAKER_PATH_PREFIX: ${{ vars.BAKER_PATH_PREFIX }}
           CUSTOM_DOMAIN: ${{ vars.CUSTOM_DOMAIN }}
         run: |
-          SITE_URL="${SITE_URL:-https://${GITHUB_REPOSITORY_OWNER}.github.io/${GITHUB_REPOSITORY#*/}}"
+          REPO_NAME="${GITHUB_REPOSITORY#*/}"
+          SITE_URL="${SITE_URL:-https://${GITHUB_REPOSITORY_OWNER}.github.io/${REPO_NAME}}"
+          if [ -n "${CUSTOM_DOMAIN}" ]; then
+            DEFAULT_BAKER_PATH_PREFIX="/"
+          else
+            DEFAULT_BAKER_PATH_PREFIX="/${REPO_NAME}/"
+          fi
+          BAKER_PATH_PREFIX="${BAKER_PATH_PREFIX:-${DEFAULT_BAKER_PATH_PREFIX}}"
           echo "Building with SITE_URL=${SITE_URL}"
-          SITE_URL="${SITE_URL}" npm run-script build
+          echo "Building with BAKER_PATH_PREFIX=${BAKER_PATH_PREFIX}"
+          SITE_URL="${SITE_URL}" BAKER_PATH_PREFIX="${BAKER_PATH_PREFIX}" npm run-script build
           if [ -n "${CUSTOM_DOMAIN}" ]; then
             echo "${CUSTOM_DOMAIN}" > _dist/CNAME
           fi

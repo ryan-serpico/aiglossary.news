@@ -31,8 +31,16 @@ const siteUrl = (process.env.SITE_URL || 'https://abcsofai.news').replace(
   ''
 );
 
+const siteDomain = (() => {
+  try {
+    return `${new URL(siteUrl).origin}/`;
+  } catch {
+    return `${siteUrl}/`;
+  }
+})();
+
 export default {
-  domain: `${siteUrl}/`,
+  domain: siteDomain,
   entrypoints: `scripts/${
     entrypoints.length > 1 ? `{${entrypoints.join(',')}}` : entrypoints[0]
   }.ts`,
