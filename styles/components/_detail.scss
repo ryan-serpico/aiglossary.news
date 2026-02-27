@@ -159,6 +159,13 @@
     }
   }
 
+  .detail--author {
+    margin-top: spacing.$space-2;
+    font-family: fonts.$font-family-mono;
+    font-size: 14px;
+    color: colors.$dark-gray;
+  }
+
   .detail--prev-next {
     display: flex;
     justify-content: space-between;

@@ -36,6 +36,9 @@
         </div>
       {% endfor %}
     {% endfor %}
+    {% if obj.author %}
+      <div class="detail--author">Entry by {{ obj.author }}</div>
+    {% endif %}
   </div>
 
   <div class="detail--actions">
