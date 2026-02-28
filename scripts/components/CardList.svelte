@@ -4,6 +4,7 @@
   import LetterGroup from './LetterGroup.svelte';
   import DictionaryEntry from './DictionaryEntry.svelte';
   import RequestCard from './RequestCard.svelte';
+  import WordOfTheDay from './WordOfTheDay.svelte';
 
   /**
    * @type {Array<any>}
@@ -96,6 +97,10 @@
     <a class="intro--btn intro--btn-secondary" href="https://github.com/ryan-serpico/aiglossary.news/issues/new?template=request-a-word.yaml" target="_blank" rel="noopener noreferrer">Request a term</a>
   </div>
 </div>
+
+{#if !$term}
+  <WordOfTheDay {dictionary} />
+{/if}
 
 <div class="search">
   <div class="search--wrapper">
