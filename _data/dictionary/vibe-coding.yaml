@@ -1,0 +1,23 @@
+word: Vibe Coding
+type: noun
+tags:
+  - Using AI as a tool
+definition_list:
+  - text: >-
+      A style of programming where the user describes what they want in plain language and lets an AI tool generate the code, with minimal or no review of the underlying code. The term was coined by AI researcher Andrej Karpathy in February 2025 to describe the practice of "giving in to the vibes" — trusting the AI to produce working software, accepting its output wholesale, pasting in error messages when things break, and iterating through conversation rather than reading or editing code directly.
+
+
+      Vibe coding has lowered the barrier to building software dramatically. Tools like Cursor, Replit, and Claude Code let people with no programming experience describe an app idea in English and get a working prototype in minutes. For data reporters, that could mean quickly spinning up a one-off scraper, a simple internal dashboard, or a tool to reformat messy public records — projects that might otherwise sit in the backlog waiting for developer time. The trade-off is that vibe-coded software can be fragile, hard to maintain, and riddled with security vulnerabilities, since no one is reviewing the code the AI writes.
+
+
+      Karpathy himself later drew a distinction between vibe coding and the more disciplined practice of [agentic engineering](/agentic-engineering/), where developers still use AI to write most of the code but add oversight, testing, and review. Related concepts include [AI coding agents](/ai-coding-agent/), [context engineering](/context-engineering/), and [prompt engineering](/prompt-engineering/).
+    in_use:
+      - text: 'Simply put, _vibe coding_ is coding with the help of artificial intelligence.'
+        source: CNBC
+        url: https://www.cnbc.com/2025/05/08/i-took-a-2-day-vibe-coding-class-and-successfully-built-a-product.html
+      - text: '_Vibe coding_ is one of the most pervasive trends to emerge from the generative AI boom, and momentum has continued to pick up in 2026, largely thanks to Claude Code from Anthropic, which has gone viral in tech circles.'
+        source: CNBC
+        url: https://www.cnbc.com/2026/01/15/ai-startup-replit-launches-feature-to-vibe-code-mobile-apps.html
+      - text: 'When implementing a task with _vibe coding_, it''s difficult to keep track of all the decisions that were made along the way, and document them for your team.'
+        source: CNBC
+        url: https://www.cnbc.com/2025/07/14/aws-launches-kiro-ai-coding-program.html

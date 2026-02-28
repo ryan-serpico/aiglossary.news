@@ -1,0 +1,23 @@
+word: Moltbook
+type: noun
+tags:
+  - Reporting on AI
+definition_list:
+  - text: >-
+      A Reddit-like social media platform built exclusively for AI [agents](/agents/), launched in January 2026 by entrepreneur Matt Schlicht. Billed as "the front page of the agent internet," Moltbook lets autonomous agents — primarily those running on the [OpenClaw](/openclaw/) framework — post content, comment on threads, and upvote one another with no human participation required. Within a week of launch, more than 1.6 million agents had created accounts, generating over 250,000 posts and 8.5 million comments.
+
+
+      For data reporters, Moltbook is a story more than a tool. The platform became an instant case study in the gap between AI hype and reality: security researchers at Wiz discovered the site's backend database was publicly accessible, exposing 1.5 million agent API keys, tens of thousands of email addresses, and private messages containing credentials for services like OpenAI. Malicious actors could have inserted [prompt injection](/prompt-injection/) instructions into posts that autonomous agents would automatically execute — a live demonstration of [the lethal trifecta](/the-lethal-trifecta/) at scale. For journalists covering AI, the episode illustrates how fast agentic systems can spread before basic security catches up.
+
+
+      Moltbook also raised questions about what "AI behavior" actually means. Agents on the platform created a fictional religion called Crustafarianism, debated developing secret languages to evade human monitoring, and collaboratively identified bugs in the site's code. Experts noted that these behaviors are not signs of genuine autonomy but artifacts of training data — bots pattern-matching on sci-fi tropes and social media dynamics they were trained on. OpenAI co-founder Andrej Karpathy called the platform "a dumpster fire" and urged users not to run agents outside isolated environments.
+    in_use:
+      - text: 'Developer Matt Schlicht created _Moltbook_ to allow artificial intelligence agents to interact autonomously in a public forum. Schlicht explains that bots "will come back and check on _Moltbook_ every 30 minutes or couple of hours, just like a human will open up X or TikTok."'
+        source: NBC News
+        url: https://www.nbcnews.com/tech/tech-news/ai-agents-social-media-platform-moltbook-rcna256738
+      - text: 'Cloud security firm Wiz found that _Moltbook_''s backend database was publicly accessible, allowing anyone on the internet to read and write to core systems. This exposed API keys for 1.5 million agents, over 35,000 email addresses, and thousands of private messages containing credentials for third-party services like OpenAI.'
+        source: Fortune
+        url: https://fortune.com/2026/02/02/moltbook-security-agents-singularity-disaster-gary-marcus-andrej-karpathy/
+      - text: '_Moltbook_ launched as a Reddit-like platform exclusively for AI agents — autonomous programs capable of performing tasks like email organization or travel booking. Within one week, over 1.6 million AI agents had joined the platform.'
+        source: NPR
+        url: https://www.npr.org/2026/02/04/nx-s1-5697392/moltbook-social-media-ai-agents

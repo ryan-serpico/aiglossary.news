@@ -1,0 +1,10 @@
+word: Agentic Engineering
+type: noun
+tags:
+  - Using AI as a tool
+definition_list:
+  - text: >-
+      A disciplined approach to software development where a human developer orchestrates [AI coding agents](/ai-coding-agent/) that write, test, and iterate on code, while the developer acts as architect, reviewer, and decision-maker. The term was proposed by Andrej Karpathy in February 2026 as a more rigorous successor to [vibe coding](/vibe-coding/) — keeping the speed of AI-generated code but adding the oversight that professional software demands: writing specifications before prompting, reviewing every change, and running test suites to verify results.
+
+
+      For data reporters and newsroom developers, agentic engineering describes a workflow that's already becoming common: you give an AI agent a well-scoped task — clean up this dataset, build a chart from this CSV, write a scraper for this agency's website — and then review the output carefully before using it. The "engineering" part is the key distinction from vibe coding. Rather than blindly accepting AI output, you're treating the agent like a fast but fallible junior colleague who needs supervision, code review, and testing. This mirrors how many data teams already work with interns or freelancers.
