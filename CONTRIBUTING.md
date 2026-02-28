@@ -13,11 +13,11 @@ The following is a set of guidelines for contributing to this repository and the
 
 ## Code of conduct
 
-This project is governed by a [Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [b@palewi.re](mailto:b@palewi.re).
+This project is governed by a [Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior by [opening an issue](https://github.com/ryan-serpico/aiglossary.news/issues).
 
 ## About this site
 
-This site is run by [Ben Welsh](https://palewi.re/who-is-ben-welsh/). You can reach him at [b@palewi.re](mailto:b@palewi.re). It is a static site constructing using the [`baker`](https://github.com/datadesk/baker) framework and published via [GitHub Pages](https://pages.github.com/).
+This site is run by [Ryan Serpico](https://github.com/ryan-serpico), [Jon Keegan](https://github.com/jonkeegan) and [Libby Seline](https://github.com/libbyseline). It is a static site constructed using the [`baker`](https://github.com/datadesk/baker) framework and published via [GitHub Pages](https://pages.github.com/).
 
 ## How definitions are stored
 
@@ -91,11 +91,11 @@ The definition should be saved in a new file with the same name as the word. The
 
 To add a definition, you should add a new YAML file to the [`dictionary`](https://github.com/ryan-serpico/aiglossary.news/blob/main/_data/dictionary) directory. Our data format is described above.
 
-If you're unfamiliar with GitHub's system for proposing changes, you can follow the [instructions for editing files](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files#editing-files-in-another-users-repository). Or you can [create an issue](https://github.com/ryan-serpico/aiglossary.news/issues/new?assignees=palewire&labels=enhancement&template=add-a-word.yaml&title=Add+a+word) and submit your definition via a form.
+If you're unfamiliar with GitHub's system for proposing changes, you can follow the [instructions for editing files](https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files#editing-files-in-another-users-repository). Or you can [create an issue](https://github.com/ryan-serpico/aiglossary.news/issues/new?labels=enhancement&template=add-a-word.yaml&title=Add+a+word) and submit your definition via a form.
 
 ## Reporting an error
 
-You can report mistakes and suggest changes to existing definitions by editing the [`dictionary.yaml`](https://github.com/ryan-serpico/aiglossary.news/blob/main/_data/dictionary.yaml) file or [submitting an issue](https://github.com/ryan-serpico/aiglossary.news/issues) to our tracker. If you're unable to to utilize those techniques, contact Ben Welsh at [b@palewi.re](mailto:b@palewi.re).
+You can report mistakes and suggest changes to existing definitions by editing the [`dictionary.yaml`](https://github.com/ryan-serpico/aiglossary.news/blob/main/_data/dictionary.yaml) file or [submitting an issue](https://github.com/ryan-serpico/aiglossary.news/issues) to our tracker. If you're unable to utilize those techniques, [open an issue](https://github.com/ryan-serpico/aiglossary.news/issues) on our tracker.
 
 ## Installing the repository
 

@@ -1,7 +1,7 @@
 <script>
   /** @type {string} */
   export let word;
-  $: url = `https://github.com/ryan-serpico/aiglossary.news/issues/new?assignees=palewire&labels=enhancement&template=request-a-word.yaml&title=Request definition for ${word}`;
+  $: url = `https://github.com/ryan-serpico/aiglossary.news/issues/new?assignees=ryan-serpico&labels=enhancement&template=request-a-word.yaml&title=Request definition for ${word}`;
 </script>
 
 <div class="no-results">

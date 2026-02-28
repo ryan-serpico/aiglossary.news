@@ -3,7 +3,7 @@ description: Point out something that's wrong
 title: "Flag an error"
 labels: ["bug"]
 assignees:
-  - palewire
+  - ryan-serpico
 body:
   - type: markdown
     attributes:
