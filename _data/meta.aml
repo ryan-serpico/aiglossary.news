@@ -1,7 +1,7 @@
-site_name: abcsofai.news
+site_name: aiglossary.news
 locale: en_US
 
-headline: abcsofai.news
+headline: aiglossary.news
 description: A glossary of AI terms for journalists
 
 [byline]
@@ -21,7 +21,7 @@ url: https://github.com/jonkeegan
 pub_date: 2023-01-01 00:00:00
 update_date:
 
-seo_headline: abcsofai.news
+seo_headline: aiglossary.news
 seo_description: A glossary of AI terms for journalists
 
 social_image: assets/images/social.png

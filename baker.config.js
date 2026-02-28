@@ -26,7 +26,7 @@ const escapeHtml = (str) =>
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&#039;');
 
-const siteUrl = (process.env.SITE_URL || 'https://abcsofai.news').replace(
+const siteUrl = (process.env.SITE_URL || 'https://aiglossary.news').replace(
   /\/+$/,
   ''
 );

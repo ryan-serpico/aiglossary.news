@@ -28,15 +28,15 @@ Think of it as a reference you can keep open while reading a model card, sitting
 
 ### Status
 
-This project is in its early stages. We are currently building out the glossary of terms and adapting the site for our needs. Contributions and suggestions are welcome — see [How to contribute](./CONTRIBUTING.md) and the [issue tracker](https://github.com/ryan-serpico/abcsofai.news/issues).
+This project is in its early stages. We are currently building out the glossary of terms and adapting the site for our needs. Contributions and suggestions are welcome — see [How to contribute](./CONTRIBUTING.md) and the [issue tracker](https://github.com/ryan-serpico/aiglossary.news/issues).
 
 ### Running locally
 
 1. Make sure you have [Node.js](https://nodejs.org/) installed.
 2. Clone the repo and install dependencies:
    ```sh
-   git clone https://github.com/ryan-serpico/abcsofai.news.git
-   cd abcsofai.news
+   git clone https://github.com/ryan-serpico/aiglossary.news.git
+   cd aiglossary.news
    npm install
    ```
 3. Start the development server:
@@ -47,7 +47,7 @@ This project is in its early stages. We are currently building out the glossary 
 
 ### Links
 
-- [abcsofai.news](https://abcsofai.news/) (coming soon)
+- [aiglossary.news](https://aiglossary.news/) (coming soon)
 - [How to contribute](./CONTRIBUTING.md)
-- [Issue tracker](https://github.com/ryan-serpico/abcsofai.news/issues)
+- [Issue tracker](https://github.com/ryan-serpico/aiglossary.news/issues)
 - [Upstream repo: moneyinpolitics.wtf](https://github.com/palewire/moneyinpolitics.wtf)

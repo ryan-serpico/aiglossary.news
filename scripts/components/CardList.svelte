@@ -92,8 +92,8 @@
     This project is a fork of <a href="https://moneyinpolitics.wtf/">moneyinpolitics.wtf</a> by <a href="https://www.icij.org/journalists/agustin-armendariz/">Agustin Armendariz</a>, <a href="https://www.washingtonpost.com/people/anu-narayanswamy/">Anu Narayanswamy</a>, <a href="https://palewi.re/who-is-ben-welsh/">Ben Welsh</a> and <a href="https://thescoop.org/">Derek Willis</a>. Their dictionary of campaign finance jargon provided both the inspiration and the foundation for this site. In the spirit of their <a href="https://www.niemanlab.org/2026/02/journalism-lost-its-culture-of-sharing-heres-how-we-rebuild-it/">recent call</a> to revive open-source culture in journalism, we're keeping the tradition alive.
   </p>
   <div class="intro--actions">
-    <a class="intro--btn intro--btn-primary" href="https://github.com/ryan-serpico/abcsofai.news/issues/new?template=add-a-word.yaml" target="_blank" rel="noopener noreferrer">Add a term</a>
-    <a class="intro--btn intro--btn-secondary" href="https://github.com/ryan-serpico/abcsofai.news/issues/new?template=request-a-word.yaml" target="_blank" rel="noopener noreferrer">Request a term</a>
+    <a class="intro--btn intro--btn-primary" href="https://github.com/ryan-serpico/aiglossary.news/issues/new?template=add-a-word.yaml" target="_blank" rel="noopener noreferrer">Add a term</a>
+    <a class="intro--btn intro--btn-secondary" href="https://github.com/ryan-serpico/aiglossary.news/issues/new?template=request-a-word.yaml" target="_blank" rel="noopener noreferrer">Request a term</a>
   </div>
 </div>
 
