@@ -1,0 +1,26 @@
+word: AGENTS.md
+type: noun
+tags:
+  - Using AI as a tool
+definition_list:
+  - text: >-
+      A simple, open-format Markdown file that gives [AI coding agents](/ai-coding-agent/) project-specific instructions — things like build commands, testing procedures, code style preferences, and pull request guidelines. Released by OpenAI in August 2025, it has since been adopted by more than 60,000 open-source projects and was donated to the Linux Foundation's Agentic AI Foundation alongside [Model Context Protocol](/model-context-protocol/).
+
+
+      Think of it as a README for robots. Where a README tells a human contributor how to get started, AGENTS.md tells an AI coding agent the same things: how to build the project, how to run its tests, and what conventions to follow. The file uses plain Markdown with no required structure, so teams can include whatever context their particular codebase needs. Coding agents read the nearest AGENTS.md in the directory tree before doing any work, and in large projects, nested files can give subdirectories their own tailored guidance.
+
+
+      Anthropic's Claude Code uses a similar file called CLAUDE.md that serves the same purpose but is exclusive to Claude-powered tools. Many projects include both: an AGENTS.md for broad compatibility across coding agents, and a CLAUDE.md for Claude-specific instructions. Claude Code also reads AGENTS.md files, so projects that only need one file can use AGENTS.md and still work with Claude.
+
+
+      For data reporters and newsroom developers, an AGENTS.md file can capture the institutional knowledge that usually lives in one person's head — "always run this scraper with Python 3.11," "the database credentials live in `.env.local`," "lint before you commit." Adding one to a project means any AI coding agent a colleague uses will follow the same ground rules, making it easier for small teams to collaborate with AI tools without stepping on each other's work. It pairs naturally with [agent skills](/agent-skills/), which teach agents *how* to do a task, while AGENTS.md tells them the rules of *your* specific project.
+    in_use:
+      - text: '_AGENTS.md_ is a straightforward and open format designed to assist AI coding agents in software development, with more than 20,000 repositories on GitHub having adopted the standard within weeks of its release.'
+        source: InfoQ
+        url: https://www.infoq.com/news/2025/08/agents-md/
+      - text: '"MCP, _AGENTS.md_ and goose have become essential tools for developers building this new class of agentic technologies," said Jim Zemlin, Executive Director of the Linux Foundation.'
+        source: Linux Foundation
+        url: https://www.linuxfoundation.org/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation
+      - text: '_AGENTS.md_ has already been adopted by more than 60,000 open source projects and agent frameworks including Amp, Codex, Cursor, Devin, Factory, Gemini CLI, GitHub Copilot, Jules and VS Code among others.'
+        source: Agentic AI Foundation
+        url: https://aaif.io/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation-aaif-anchored-by-new-project-contributions-including-model-context-protocol-mcp-goose-and-agents-md/
