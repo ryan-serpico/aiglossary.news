@@ -1,0 +1,25 @@
+word: Command-Line Interface (CLI)
+type: noun
+author: Ryan Serpico
+tags:
+  - Foundational concepts
+  - Using AI as a tool
+definition_list:
+  - text: >-
+      A text-based way of interacting with a computer by typing commands, as opposed to clicking buttons and menus in a graphical interface. A CLI runs inside a terminal — the plain-text window familiar to developers and data journalists who write code.
+
+
+      In 2025, the command line became the main home for a new wave of [AI coding agents](/ai-coding-agent/). Anthropic's Claude Code, OpenAI's Codex CLI, and Google's Gemini CLI all run in the terminal, letting developers describe tasks in plain English and watch the agent write code, run tests, and manage files. For data reporters, basic comfort with a CLI unlocks these tools: you could ask an agent to scrape a government website, clean a messy CSV, or turn a Jupyter notebook into a reusable script — all from a terminal window. You don't need to be a software engineer; you just need to know how to open a terminal and type a command.
+
+
+      The term appears constantly in AI product coverage, usually abbreviated as CLI. It's closely related to [vibe coding](/vibe-coding/), the practice of describing what you want in natural language and letting an AI agent handle the implementation. Many CLI-based agents also support [Model Context Protocol](/model-context-protocol/) plug-ins that connect them to outside data sources and tools — but some developers argue the CLI itself is often the better approach. In a [his essay](https://ejholmes.github.io/2026/02/28/mcp-is-dead-long-live-the-cli.html), engineer Eric Holmes argued that CLIs are simpler to debug, easier to compose (you can pipe output through other tools), and piggyback on authentication systems that already work — while MCP servers add moving parts that can break.
+    in_use:
+      - text: "In a bid to inject AI into more of the programming process, OpenAI is launching Codex _CLI_, a coding 'agent' designed to run locally from terminal software."
+        source: TechCrunch
+        url: https://techcrunch.com/2025/04/16/openai-debuts-codex-cli-an-open-source-coding-tool-for-terminals/
+      - text: 'Google launched a new, open source AI coding tool for terminals, Gemini _CLI_, to compete with similar offerings from OpenAI and Anthropic.'
+        source: TechCrunch
+        url: https://techcrunch.com/2025/06/25/google-unveils-gemini-cli-an-open-source-ai-tool-for-terminals/
+      - text: 'The new tool connects Gemini AI models to local codebases, allowing developers to make natural language requests, such as asking Gemini _CLI_ to explain confusing sections of code, write new features, debug code, or run commands.'
+        source: TechCrunch
+        url: https://techcrunch.com/2025/06/25/google-unveils-gemini-cli-an-open-source-ai-tool-for-terminals/
