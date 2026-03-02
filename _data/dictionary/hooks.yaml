@@ -1,0 +1,24 @@
+word: Hooks
+type: noun
+author: Ryan Serpico
+tags:
+  - Using AI as a tool
+definition_list:
+  - text: >-
+      Automated scripts or commands that fire at specific points in an [AI coding agent's](/ai-coding-agent/) workflow — for example, before a shell command runs, after a file is edited, or when the agent tries to stop working. Hooks act as deterministic guardrails: unlike prompt-based instructions that an AI might ignore, hooks execute every time, enforcing rules like "run the test suite before committing" or "block any command that deletes files."
+
+
+      The concept borrows from a well-established pattern in software development (Git hooks, CI/CD pipelines, webhooks), but applied specifically to AI agents. Anthropic's Claude Code, Cursor, and other coding tools now support hooks that intercept the agent's actions at defined lifecycle events — before and after tool calls, when permissions are requested, or when the agent finishes a task. Each hook can inspect what the agent is about to do, allow it, modify it, or block it entirely.
+
+
+      For data reporters, hooks offer a practical safety net when using AI agents to write code. A reporter using an agent to build a web scraper could set up hooks that automatically run a linter after every file edit, block commands that might accidentally overwrite a dataset, or require tests to pass before the agent declares a task complete. Hooks turn [vibe coding](/vibe-coding/) from a leap of faith into something closer to a supervised workflow — the agent moves fast, but hard rules keep it on track. They pair naturally with [agent skills](/agent-skills/), which teach an agent *how* to do a task, while hooks enforce *what it's not allowed to do*.
+    in_use:
+      - text: '_Hooks_ can be used to block shell commands, run formatters after edits, or observe agent actions in real time.'
+        source: InfoQ
+        url: https://www.infoq.com/news/2025/10/cursor-hooks/
+      - text: 'Claude Code 2.1.0 includes _hooks_ for agents, skills, and slash commands, enabling scoped PreToolUse, PostToolUse, and Stop logic that gives developers fine-grained control over state management, tool constraints, and audit logging — reducing unexpected behavior.'
+        source: VentureBeat
+        url: https://venturebeat.com/orchestration/claude-code-2-1-0-arrives-with-smoother-workflows-and-smarter-agents
+      - text: '_Hooks_ require deep technical expertise, are confined to local development tasks, and introduce maintenance and security overhead due to their reliance on arbitrary shell commands.'
+        source: InfoQ
+        url: https://www.infoq.com/news/2025/10/cursor-hooks/
