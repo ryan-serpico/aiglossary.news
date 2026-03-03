@@ -1,0 +1,20 @@
+word: Alignment
+type: noun
+author: Libby Seline
+tags:
+  - Foundational concepts
+  - Using AI as a tool
+definition_list:
+  - text: >-
+      Hugging Face is a platform that offers accessible tools and models. By creating an account on its website, you can access thousands of pre-trained models that you can fine tune for specific tasks. You can learn more about how to get started via their post [here](https://huggingface.co/blog/proflead/hugging-face-tutorial).
+
+
+      Also see our definition of [model card](https://aiglossary.news/model-card-system-card/). 
+
+
+      Fellow journalists: consider joining the [Journalists on Hugging Face community](https://huggingface.co/JournalistsonHF)
+
+  - in_use:
+      - text: 'In addition to hosting thousands of models, Hugging Face offers an API that lets you send prompts to many of them at inexpensive rates. It has a generous free tier that should be sufficient for this tutorial. Its code is similar to other services, so the skills you learn here should be transferable to other platforms.'
+        source: Ben Welsh and Derek Willis, First LLM Classifier
+        url: https://palewi.re/docs/first-llm-classifier/huggingface.html#

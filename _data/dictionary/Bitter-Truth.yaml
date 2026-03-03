@@ -1,0 +1,12 @@
+word: Bitter Lesson
+type: noun
+author: Libby Seline
+tags:
+  - Foundational concepts
+definition_list:
+  - text: >-
+      This is a [popular blog post](http://www.incompleteideas.net/IncIdeas/BitterLesson.html) by computer scientist Rich Sutton. The short essay ultimately makes the point that human intelligence is very different from artificial intelligence.
+  - in_use:
+      - text: 'The bitter lesson is based on the historical observations that 1) AI researchers have often tried to build knowledge into their agents, 2) this always helps in the short term, and is personally satisfying to the researcher, but 3) in the long run it plateaus and even inhibits further progress, and 4) breakthrough progress eventually arrives by an opposing approach based on scaling computation by search and learning. The eventual success is tinged with bitterness, and often incompletely digested, because it is success over a favored, human-centric approach.'
+        source: Rich sutton
+        url: http://www.incompleteideas.net/IncIdeas/BitterLesson.html
