@@ -123,3 +123,6 @@ tags
 [._]*.un~
 
 ryan_docs/
+
+# Libby's yaml template
+_data/dictionary/libbytemplate.yaml
