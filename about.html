@@ -37,12 +37,7 @@
       <li class="maintainer">
         <div class="maintainer--name">{{ obj.name }}</div>
         <div class="maintainer--title">{{ obj.title }}</div>
-        <div class="maintainer--link">
-            <a href="{{ obj.url }}">{{ obj.link_text or 'Bio' }}</a>
-        </div>
-        {% if obj.bio %}
-        <div class="maintainer--bio">{{ obj.bio | markdown }}</div>
-        {% endif %}
+        <div class="maintainer--link"><a href="{{ obj.url }}">Bio</a></div>
       </li>
     {% endfor %}
     </ul>
