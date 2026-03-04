@@ -52,7 +52,7 @@ tags:
 definition_list:
   - text: plain language definition with [markdown](links)
     image:
-      src: /assets/images/definition/example.png
+      src: assets/images/definition/example.png
       alt: Description of the image
       caption: Credit or caption text
       credit_url: https://source-url.com

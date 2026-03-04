@@ -35,7 +35,7 @@
       </div>
       {% if definition.image %}
         <figure class="detail--image">
-          <img src="{{ definition.image.src }}" alt="{{ definition.image.alt }}" loading="lazy">
+          <img src="{% static definition.image.src %}" alt="{{ definition.image.alt }}" loading="lazy">
           {% if definition.image.caption %}
             <figcaption>
               {% if definition.image.credit_url %}

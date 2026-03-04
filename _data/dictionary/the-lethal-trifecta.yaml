@@ -4,11 +4,21 @@ author: Ryan Serpico
 tags:
   - Reporting on AI
 definition_list:
-  - text: A dangerous combination of three AI agent capabilities that, when combined, allow an attacker to steal private data — access to private data, exposure to untrusted content, and the ability to externally communicate.
+  - text: >-
+      A dangerous combination of three AI [agent](/agents/) capabilities that, when present together, allow an attacker to steal private data through [prompt injection](/prompt-injection/). The three legs are: access to private data, exposure to untrusted content, and the ability to communicate externally. Remove any one leg and the attack falls apart.
+
+
+      The risk is concrete for newsrooms experimenting with AI tools. Imagine a reporter who connects an AI agent to their email, gives it access to documents, and lets it browse the web to research stories. That agent has all three legs: private data (the reporter's email and files), untrusted content (anything it fetches from the web), and external communication (the ability to send emails or make web requests). A malicious instruction hidden on a webpage the agent visits could trick it into forwarding confidential source communications to an attacker. The same threat applies to any workflow where an agent reads from both trusted and untrusted sources — scraping public records while connected to an internal database, for example.
+
+
+      The [Model Context Protocol](/model-context-protocol/) makes the problem more acute because it encourages users to mix and match tools from different sources, each of which may unknowingly provide one leg of the trifecta. No reliable technical fix exists yet — the concept is closely tied to prompt injection, which AI companies have acknowledged may never be fully solved.
     in_use:
-      - text: "If your agent combines these three features, an attacker can easily trick it into accessing your private data and sending it to that attacker. The _lethal trifecta_ of capabilities is: access to your private data, exposure to untrusted content, and the ability to externally communicate in a way that could be used to steal your data."
+      - text: 'If your agent combines these three features, an attacker can easily trick it into accessing your private data and sending it to that attacker. The _lethal trifecta_ of capabilities is: access to your private data, exposure to untrusted content, and the ability to externally communicate in a way that could be used to steal your data.'
         source: Simon Willison
         url: https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/
-      - text: "The only way to stay safe there is to avoid that _lethal trifecta_ combination entirely."
+      - text: 'LLMs will happily follow any instructions that make it to the model ... they are unable to reliably distinguish the importance of instructions based on where they came from. The _lethal trifecta_ is the result.'
+        source: Simon Willison
+        url: https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/
+      - text: 'The only way to stay safe there is to avoid that _lethal trifecta_ combination entirely.'
         source: Simon Willison
         url: https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/

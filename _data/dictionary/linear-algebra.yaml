@@ -22,7 +22,7 @@ definition_list:
       An embedding is a much more complicated vector than the one depicted below. But remember a 2-dimensional vector is a line with an x and a y. It is often easier to think of a vector as a list of numbers. Similarly a **matrix** can be thought of as a grid of numbers.
 
     image:
-      src: /assets/images/definition/LinearAlgebra_Vector.png
+      src: assets/images/definition/LinearAlgebra_Vector.png
       alt: A 2D vector diagram showing x and y components
       caption: 'Image courtesy of 3Blue1Brown''s video "Vectors, what even are they?" Timestamp: 3:30'
       credit_url: https://www.3blue1brown.com/?v=vectors
