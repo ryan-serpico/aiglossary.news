@@ -1,14 +1,19 @@
 word: Multimodal
 type: adjective
 author: Jon Keegan
-last_updated: "Last updated: Feb. 26, 2026"
+last_updated: "Last updated: March 4, 2026"
+tags:
+- Foundational concepts
 definition_list:
   - text:  >- 
-         TK TK TK
-    in_use:
-      - text: "While imperfect, the industry has embraced the use of '_benchmarks_' — tests designed to measure an AI model's knowledge and reasoning ability."
-        source: Sherwood News
-        url: https://sherwood.news/tech/openais-arc-de-triumph/
-      - text: "The rapid pace of AI product releases — and a lack of governmental oversight — increases the likelihood that tech companies continue to use the same _benchmarks_, regardless of their shortcomings. "
-        source: The Markup
-        url: https://themarkup.org/artificial-intelligence/2024/07/17/everyone-is-judging-ai-by-these-tests-but-experts-say-theyre-close-to-meaningless
+         A multimodal AI model is a type of generative AI that can not only read and generate text, but also process and generate other types of media such as images, audio, and video.
+         
+
+         You might use a multimodal model to: 
+          - Analyze the contents of an uploaded photo for geolocation or other OSINT applications.
+          - Generate a diagram or data visualization from a prompt.
+          - Extract text from an photo, such as a screenshot, receipt, or a handwritten note.  
+          - Generate a video from a text prompt.
+          - Generate an image from a text prompt.
+          - Transcribe and summarize audio recordings.  
+          - Converse with the model using a voice chat interface. 

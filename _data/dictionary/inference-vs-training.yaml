@@ -1,14 +1,25 @@
 word: Inference vs. training
-type: adjective
+type: noun
 author: Jon Keegan
-last_updated: "Last updated: Feb. 26, 2026"
+tags:
+- Foundational concepts
+last_updated: "Last updated: March 4, 2026"
 definition_list:
-  - text:  >- 
-       TK TK TK
-    in_use:
-      - text: "While imperfect, the industry has embraced the use of '_benchmarks_' — tests designed to measure an AI model's knowledge and reasoning ability."
-        source: Sherwood News
-        url: https://sherwood.news/tech/openais-arc-de-triumph/
-      - text: "The rapid pace of AI product releases — and a lack of governmental oversight — increases the likelihood that tech companies continue to use the same _benchmarks_, regardless of their shortcomings. "
-        source: The Markup
-        url: https://themarkup.org/artificial-intelligence/2024/07/17/everyone-is-judging-ai-by-these-tests-but-experts-say-theyre-close-to-meaningless
+- text: >-
+    In AI computing, there are two primary tasks: **training** and **inference**. 
+
+
+    **Training** is the stage when vast amounts of data are fed into an AI model while it is being built. This could include a corpus of text from books and websites, huge image datasets like [LAION-5B](https://arxiv.org/abs/2210.08402), or millions of hours of YouTube videos. The process is extremely computationally intensive. During the first phase of the current generative AI boom, the industry followed a simple scaling rule: more data fed into more GPUs = a more capable model. 
+
+
+    That approach worked for several iterations, until the massive leaps in performance began to shrink. Other techniques, such as reasoning models, provided the next wave of breakthroughs.
+
+
+    **Inference** is the process of running a trained AI model—ingesting a prompt and generating a response. This is the most common form of AI computing, as companies are not always training a big new model. Inference is less computationally intensive than training. 
+
+
+    While the early rush to acquire Nvidia GPUs was focused on amassing large numbers of chips to train successive generations of models, tech companies like Google and Amazon are now building custom inference chips that are far cheaper and more efficient than the most powerful GPUs used for training.
+  in_use:
+    - text: "In AI _inference_, the trained model then makes predictions on real-world input data. AI inference works by using what it has 'learned'—that is, the model parameter updates that were made in order to improve its performance on the training data—to infer the correct output for the new input data. Unlike in model training, inference entails only a forward pass."
+      source: IBM
+      url: https://www.ibm.com/think/topics/ai-inference   

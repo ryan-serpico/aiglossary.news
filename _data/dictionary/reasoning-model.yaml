@@ -1,14 +1,21 @@
-word: Reasoning model
+word: Reasoning models
 type: noun
 author: Jon Keegan
-last_updated: "Last updated: Feb. 26, 2026"
+last_updated: "Last updated: March 4, 2026"
+tags:
+- Foundational concepts
 definition_list:
   - text:  >- 
-       TK TK TK 
-    in_use:
-      - text: "While imperfect, the industry has embraced the use of '_benchmarks_' — tests designed to measure an AI model's knowledge and reasoning ability."
-        source: Sherwood News
-        url: https://sherwood.news/tech/openais-arc-de-triumph/
-      - text: "The rapid pace of AI product releases — and a lack of governmental oversight — increases the likelihood that tech companies continue to use the same _benchmarks_, regardless of their shortcomings. "
-        source: The Markup
-        url: https://themarkup.org/artificial-intelligence/2024/07/17/everyone-is-judging-ai-by-these-tests-but-experts-say-theyre-close-to-meaningless
+       Reasoning models are AI models that use a "chain of thought" process to break down complex quries into step-by-step tasks. 
+
+       
+       The models often generate a readable "inner monologue" that lets users see how it is tackling a problem, which is also used to help evaluate the performance of the model.
+
+
+       Reasoning models, along with other innovations in training helped push a breakthrough in AI model performance, and became widely used across the industry. 
+
+
+       Journalists should know that "reasoning" is a term that anthropomorphizes this technology and can give readers a mistaken impression that these generative AI models are actually thinking (they are not). Large language models are probablistic systems that generate text based on patterns in data. But the term has been popularized and does describe a particular kind of AI model. 
+
+
+       Reasoning models also use exponentially more computational resources that traidtional AI models, resulting in much higher energy use, and increased expense. 

@@ -1,14 +1,24 @@
 word: LMArena leaderboard
-type: adjective
+type: noun
 author: Jon Keegan
-last_updated: "Last updated: Feb. 26, 2026"
+last_updated: "Last updated: March 4, 2026"
 definition_list:
   - text:  >- 
-       TK TK TK
+       [LM Arena](https://arena.ai/leaderboard/) (originally known as Chatbot Arena) is a popular leaderboard showing the performance rankings of the latest large language models on a number of different benchmarks. 
+
+
+       The leaderboard uses a unique crowd-sourced side-by-side "taste test," which lets real human users compare the responses of two anonymous models. Users choose which response they prefer. The leaderboard then aggregates the results of these tests to determine which model performs better on a given task.
+
+
+       Journalists should be aware that the AI industry watches the results of these leaderboards closely, and sometimes "mystery models" show up, disguised by a [code name](https://arstechnica.com/information-technology/2024/04/rumors-swirl-about-mystery-gpt2-chatbot-that-some-think-is-gpt-5-in-disguise/?utm_source=chatgpt.com). Last year, Meta faced [widespread criticism](https://sherwood.news/tech/meta-scrambling-to-defend-its-ai-after-llama-4-benchmark-bungle/) for using an internal "experimental chat version" of its Llama 4 model on LM Arena, which received unusually high scores, leading to accusations that the company was trying to manipulate the results.
+
+       
+
+
     in_use:
-      - text: "While imperfect, the industry has embraced the use of '_benchmarks_' — tests designed to measure an AI model's knowledge and reasoning ability."
-        source: Sherwood News
-        url: https://sherwood.news/tech/openais-arc-de-triumph/
-      - text: "The rapid pace of AI product releases — and a lack of governmental oversight — increases the likelihood that tech companies continue to use the same _benchmarks_, regardless of their shortcomings. "
-        source: The Markup
-        url: https://themarkup.org/artificial-intelligence/2024/07/17/everyone-is-judging-ai-by-these-tests-but-experts-say-theyre-close-to-meaningless
+      - text: "One of the things we've generally tried to do over the last year is anchor more of our models in our Meta AI product north star use cases. The issue with open source benchmarks, and any given thing like the **LM Arena** stuff, is that they’re often skewed toward a very specific set of uses cases, which are often not actually  what any normal person does in your product."
+        source: Mark Zuckerberg (via Simon Willison)
+        url: https://simonwillison.net/2025/May/1/mark-zuckerberg/
+      - text: "Internally, OpenAI paid close attention to **LM Arena**, people familiar with the matter said. It also closely tracked 4o’s contribution to ChatGPT’s daily active user counts, which were visible internally on dashboards and touted to employees in town-hall meetings and in Slack."
+        source: The Wall Street Journal
+        url: https://www.wsj.com/tech/ai/openai-sam-altman-google-code-red-c3a312ad?utm_source=chatgpt.com
