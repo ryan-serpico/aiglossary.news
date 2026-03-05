@@ -7,9 +7,17 @@ tags:
 definition_list:
   - text: >-
       A confusion matrix puts into perspective how well the classification model did. For binary classifcation, we can think of it like this:
+
+
       - True Positive (TP) — the number of times the model predicted a "positive" outcome and the outcome was "positive"
+
+
       - True Negative (TN) — the number of times the model predicted a "negative" outcome and the outcome was "negative"
+
+
       - False Positive (FP) — the number of times the model predicted a "positive" outcome when it was supposed to be "negative." For stats people - this is a Type 1 Error. 
+
+
       - False Negative (FN) - the number of times the model predicted a "negative" outcome when it was supposed to be "positive." For stats people - this is a Type 2 Error.
 
 
