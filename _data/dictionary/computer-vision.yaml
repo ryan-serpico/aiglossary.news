@@ -1,0 +1,14 @@
+word: Computer vision
+type: noun
+tags:
+  - Foundational concepts
+definition_list:
+  - text: >-
+      The branch of artificial intelligence that trains computers to interpret and understand images and video. At its core, a computer "sees" an image as a grid of pixels, each represented by numbers — for example, pure red is [255, 0, 0]. [Machine learning](/machine-learning/) models learn to recognize patterns in those pixel arrangements to identify objects, faces or scenes. Computer vision powers technologies like Tesla's Autopilot, facial recognition systems used by law enforcement, satellite imagery analysis and medical imaging diagnostics.
+    in_use:
+      - text: "The police department's _computer vision_ system misidentified the man, leading to his wrongful arrest — one of several documented cases of facial recognition errors."
+        source: The New York Times
+        url: https://www.nytimes.com/2020/06/24/technology/facial-recognition-arrest.html
+      - text: "Researchers used _computer vision_ to analyze thousands of hours of traffic camera footage, identifying patterns in pedestrian injuries that human reviewers had missed."
+        source: Wired
+        url: https://www.wired.com/story/ai-traffic-safety-computer-vision/

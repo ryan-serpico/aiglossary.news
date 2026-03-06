@@ -1,0 +1,14 @@
+word: Reinforcement learning
+type: noun
+tags:
+  - Foundational concepts
+definition_list:
+  - text: >-
+      A type of [machine learning](/machine-learning/) in which a model learns by trial and error, receiving "rewards" when it does something right and "penalties" when it does something wrong. Think of it like training a dog — it tries different actions and learns to repeat the ones that earn treats. This approach is how DeepMind's AlphaGo learned to beat the world champion at Go, and it's a key ingredient in building chatbots like ChatGPT. In that case, a variant called "reinforcement learning from human feedback" (RLHF) is used: human reviewers rate the chatbot's responses, and the model adjusts its behavior to produce answers humans prefer.
+    in_use:
+      - text: "OpenAI fine-tuned the model using _reinforcement learning from human feedback_, a technique in which human trainers rank the chatbot's responses to teach it which answers are most helpful."
+        source: The New York Times
+        url: https://www.nytimes.com/2023/03/15/technology/gpt-4-artificial-intelligence-openai.html
+      - text: "The _reinforcement learning_ approach allowed the system to master complex strategies that no human had ever considered."
+        source: Wired
+        url: https://www.wired.com/story/deepmind-alphastar-starcraft-ai/

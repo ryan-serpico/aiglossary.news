@@ -1,0 +1,14 @@
+word: Deep learning
+type: noun
+tags:
+  - Foundational concepts
+definition_list:
+  - text: >-
+      A subset of [machine learning](/machine-learning/) that uses [neural networks](/neural-network/) with many layers — hence "deep" — to learn complex patterns in large amounts of data. Deep learning is the technology behind most of the AI breakthroughs of the past decade, including image recognition, voice assistants, language translation and generative AI. These models require enormous computing power, typically provided by [GPUs](/gpu/), and massive datasets to train effectively.
+    in_use:
+      - text: "A _deep learning_ model trained on chest X-rays was able to detect COVID-19 with high accuracy, offering a potential screening tool in overwhelmed hospitals."
+        source: Nature
+        url: https://www.nature.com/articles/s41598-021-93832-2
+      - text: "_Deep learning_ has enabled machines to match or exceed human performance on narrow tasks like recognizing faces, transcribing speech and playing complex games."
+        source: Wired
+        url: https://www.wired.com/story/guide-artificial-intelligence/

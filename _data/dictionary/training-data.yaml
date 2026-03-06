@@ -1,0 +1,15 @@
+word: Training data
+type: noun
+tags:
+  - Foundational concepts
+  - Reporting on AI
+definition_list:
+  - text: >-
+      The dataset used to teach a [machine learning](/machine-learning/) model to recognize patterns and make predictions. Training data can include text, images, audio, video or structured records — often millions or billions of examples. The quality and composition of training data profoundly shape what a model learns: biased or unrepresentative data produces biased results, a principle often summarized as "garbage in, garbage out." ChatGPT, for example, was trained on a large portion of the internet's text. Questions about where training data comes from — and whether its use is legal or ethical — are central to ongoing debates about copyright, privacy and [AI bias](/ai-bias/).
+    in_use:
+      - text: "Artists have sued AI companies, arguing that their copyrighted work was scraped from the internet and used as _training data_ without permission."
+        source: The New York Times
+        url: https://www.nytimes.com/2024/01/08/technology/artists-ai-copyright-lawsuits.html
+      - text: "The model's _training data_ included medical records, raising concerns about patient privacy and whether proper consent had been obtained."
+        source: STAT News
+        url: https://www.statnews.com/2023/09/18/google-ai-health-data-privacy/

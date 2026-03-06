@@ -1,0 +1,11 @@
+word: Supervised learning
+type: noun
+tags:
+  - Foundational concepts
+definition_list:
+  - text: >-
+      A type of [machine learning](/machine-learning/) in which a model is trained on data that has been labeled with the correct answers. For example, to build a system that identifies spam emails, you would feed it thousands of emails that humans have already sorted into "spam" and "not spam." The model learns to associate patterns in the data with those labels so it can classify new, unseen examples. Supervised learning is one of the most common approaches in AI and is used for tasks like image recognition, fraud detection and medical diagnosis.
+    in_use:
+      - text: "The researchers used _supervised learning_ to train the model on thousands of labeled medical images, teaching it to distinguish between benign and malignant tumors."
+        source: Nature Medicine
+        url: https://www.nature.com/articles/s41591-020-01174-9

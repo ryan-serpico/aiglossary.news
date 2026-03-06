@@ -1,0 +1,14 @@
+word: Neural network
+type: noun
+tags:
+  - Foundational concepts
+definition_list:
+  - text: >-
+      A type of [machine learning](/machine-learning/) model loosely inspired by the structure of the human brain. A neural network is made up of layers of interconnected nodes (sometimes called "neurons") that process data by passing it forward through the network, adjusting the strength of connections as it learns. Neural networks are responsible for much of the recent progress in AI, powering everything from image recognition to language models. When a neural network has many layers, it's called [deep learning](/deep-learning/). The most well-known type today is the [transformer](/transformer/), which is the architecture behind models like GPT and Google's Gemini.
+    in_use:
+      - text: "The _neural network_ analyzed millions of medical images to detect early signs of diabetic eye disease with accuracy rivaling that of trained ophthalmologists."
+        source: The Verge
+        url: https://www.theverge.com/2018/4/12/17229880/ai-eye-disease-google-deepmind-diabetic-retinopathy
+      - text: "At the heart of every modern large language model is a massive _neural network_ with billions of parameters, each one fine-tuned during training."
+        source: MIT Technology Review
+        url: https://www.technologyreview.com/2023/02/08/1068068/what-is-a-neural-network/

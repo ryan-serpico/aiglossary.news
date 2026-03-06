@@ -1,0 +1,15 @@
+word: AI bias
+type: noun
+tags:
+  - Foundational concepts
+  - Reporting on AI
+definition_list:
+  - text: >-
+      Systematic errors in an AI system's outputs that produce unfair results, often reflecting or amplifying existing societal prejudices around race, gender, age or other characteristics. Bias can enter a model at many stages — through skewed [training data](/training-data/), flawed problem framing or biased human decisions baked into historical records. A landmark example: Amazon built an AI hiring tool trained on résumés of past engineers, who were predominantly male. The system learned to penalize résumés that mentioned women's colleges or women's organizations. Another widely cited case is ProPublica's "Machine Bias" investigation, which found that a criminal risk assessment [algorithm](/algorithm/) was far more likely to falsely flag Black defendants as future criminals than white defendants. Because human decisions are woven into every stage of model development, AI bias is not merely a technical problem — it raises fundamental questions about fairness, accountability and how society defines discrimination.
+    in_use:
+      - text: "ProPublica's investigation revealed significant _AI bias_ in the software used to predict recidivism, with Black defendants disproportionately flagged as high risk."
+        source: ProPublica
+        url: https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing
+      - text: "Amazon scrapped its _AI_ recruiting tool after discovering it had developed a _bias_ against women, penalizing résumés that included the word 'women's.'"
+        source: Reuters
+        url: https://www.reuters.com/article/us-amazon-com-jobs-automation-insight-idUSKCN1MK08G

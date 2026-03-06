@@ -1,0 +1,14 @@
+word: Machine learning
+type: noun
+tags:
+  - Foundational concepts
+definition_list:
+  - text: >-
+      A type of artificial intelligence in which computers learn to find patterns in data using math, rather than being given explicit rules by a programmer. Instead of writing code that says "if X, then Y," a developer feeds the system large amounts of data and lets it figure out the relationships on its own. The resulting program is usually called a "model." Most of what people call "AI" today — from chatbots to facial recognition to content recommendations — is built on machine learning.
+    in_use:
+      - text: "The company used _machine learning_ to scan résumés, but the system penalized applicants who attended all-women's colleges."
+        source: Reuters
+        url: https://www.reuters.com/article/us-amazon-com-jobs-automation-insight-idUSKCN1MK08G
+      - text: "Advances in _machine learning_ have made it possible for AI systems to generate realistic images, translate languages and even write code."
+        source: MIT Technology Review
+        url: https://www.technologyreview.com/2024/01/04/1084953/what-is-machine-learning/

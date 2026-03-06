@@ -1,0 +1,14 @@
+word: Classification
+type: noun
+tags:
+  - Foundational concepts
+definition_list:
+  - text: >-
+      A common [machine learning](/machine-learning/) task in which a model sorts inputs into predefined categories. Examples include labeling an email as "spam" or "not spam," determining whether a medical scan shows a tumor, or deciding whether a social media post violates platform rules. Classification is one of the three major tasks AI models perform, alongside regression (predicting a number) and generation (producing new content like text or images). Many AI systems that affect people's lives — from content moderation to criminal risk assessment — are classification models at their core.
+    in_use:
+      - text: "The AI system uses _classification_ to sort thousands of incoming tips into categories like fraud, harassment and corruption, helping the newsroom prioritize investigations."
+        source: Columbia Journalism Review
+        url: https://www.cjr.org/tow_center_reports/guide-to-automated-journalism.php
+      - text: "Facebook's content moderation relies heavily on _classification_ models that attempt to categorize posts as hateful, misleading or policy-violating — often with mixed results."
+        source: The Verge
+        url: https://www.theverge.com/2021/3/10/22319529/facebook-ai-content-moderation-hate-speech

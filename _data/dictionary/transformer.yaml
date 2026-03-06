@@ -1,0 +1,14 @@
+word: Transformer
+type: noun
+tags:
+  - Foundational concepts
+definition_list:
+  - text: >-
+      A type of [neural network](/neural-network/) architecture introduced by Google researchers in 2017 that revolutionized AI by enabling models to process entire sequences of data at once, rather than one piece at a time. Transformers use a mechanism called "attention" that lets the model weigh how important each [token](/token/) is relative to every other token in a passage, capturing context and meaning more effectively than previous approaches. The transformer is the "T" in [GPT](/gpt/) (Generative Pre-trained Transformer) and is the foundation of virtually all modern large language models, including OpenAI's ChatGPT, Anthropic's Claude, Google's Gemini and Meta's LLaMA.
+    in_use:
+      - text: "The _transformer_ architecture, introduced in a 2017 paper titled 'Attention Is All You Need,' laid the groundwork for the generative AI boom."
+        source: The New York Times
+        url: https://www.nytimes.com/2023/07/07/technology/google-ai-transformer.html
+      - text: "Nearly every major AI model released in the past two years is built on the _transformer_, an architecture that processes language in parallel rather than sequentially."
+        source: MIT Technology Review
+        url: https://www.technologyreview.com/2023/02/08/1068068/what-is-a-neural-network/

@@ -1,0 +1,14 @@
+word: Natural language processing
+type: noun
+tags:
+  - Foundational concepts
+definition_list:
+  - text: >-
+      The branch of artificial intelligence focused on enabling computers to understand, interpret and generate human language. Often abbreviated as NLP, it encompasses everything from spam filters and autocomplete to chatbots and translation tools. The field is sometimes split into two sub-areas: natural language understanding (comprehending what text means) and natural language generation (producing new text). Large language models like GPT are a product of decades of NLP research.
+    in_use:
+      - text: "Using _natural language processing_, the newsroom built a tool that could automatically sort thousands of public tips by topic and urgency."
+        source: Columbia Journalism Review
+        url: https://www.cjr.org/tow_center_reports/guide-to-automated-journalism.php
+      - text: "Advances in _natural language processing_ have made it possible for AI systems to summarize lengthy documents, translate between languages and generate human-sounding text."
+        source: MIT Technology Review
+        url: https://www.technologyreview.com/2024/01/04/1084953/what-is-machine-learning/

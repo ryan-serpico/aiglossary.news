@@ -1,0 +1,14 @@
+word: Algorithm
+type: noun
+tags:
+  - Foundational concepts
+definition_list:
+  - text: >-
+      A set of step-by-step instructions that tells a computer how to solve a problem or complete a task — like a recipe. In the context of AI, algorithms are the mathematical procedures that allow a model to learn patterns from data and make predictions. When people refer to "the algorithm" on social media platforms, they're usually talking about the recommendation system that decides what content to show you.
+    in_use:
+      - text: "The _algorithm_ had been trained on historical data that reflected decades of biased human decisions."
+        source: The New York Times
+        url: https://www.nytimes.com/2023/03/06/business/algorithm-discrimination-hud-housing.html
+      - text: "ProPublica analyzed the _algorithm_ and found that Black defendants were far more likely than white defendants to be incorrectly judged to be at a higher risk of recidivism."
+        source: ProPublica
+        url: https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing
